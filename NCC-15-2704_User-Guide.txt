@@ -1,0 +1,737 @@
+# North Central College Website User Guide
+
+---
+
+* [What is Drupal? CMS Essentials][section-whatisdrupal]
+* [Components: The Site's Visual Building Blocks][section-components]
+* [Image Specifications][section-imagespecs] 
+* [Word Counts] [section-wordounts]
+* [Logging Into the Site][section-login]
+* [Creating and Editing Content][section-createandedit]
+* [Pages][section-pages]
+* [Programs][section-programs]
+* [Your Profile][section-profile]
+* [Articles][section-article]
+* [Events][section-events]
+* [Webforms][section-webforms]
+* [Departments][section-departments]
+* [Videos and Galleries][section-videosandgalleries]
+* [Alerts][section-alerts]
+* [PDFs and Documents][section-documents]
+* [Links][section-links]
+* [Advanced Topics] [section-advancedtopics]
+* [Managing Menus][section-managingmenus]
+* [Webforms: Building and managing][section-buildingwebforms]
+* [Event Management][section-eventmanagement]
+* [Taxonomies][section-taxonomies]
+* [Editorial Access and Workflows][section-editorialaccess]
+* [Roles and Permissions][section-rolesandpermissions]
+* [Meta Tags/SEO][section-metatags]
+* [Managing Images and Files][section-managingfiles]
+* [Glossary][section-glossary]
+
+---
+
+## What is Drupal? CMS Essentials [section-whatisdrupal]
+North Central College’s website is built with a content management system – or CMS – called Drupal.
+ 
+CMSs like Drupal make it possible for people without technical skills to create and edit pages, news articles, events and other content.
+ 
+If you’ve edited pages on North Central’s old site or used blogging platforms like Wordpress, you’ve used a CMS before. In fact, North Central’s previous site was built with an earlier version of Drupal.
+
+Drupal is an open source product. A strong, dedicated community of developers from around the world contributes the code that makes Drupal run. There’s no cost to use it, and it is the platform of choice for organizations ranging from The Economist to The City of Austin to Cisco to other colleges and universities.  
+
+---   
+
+### Key Concepts  
+
+---   
+
+#### Content Types
+Often, when we’re on websites, everything seems like it’s just a page. But in Drupal, there are many different things that create a site. They’re called “content types.”
+
+Content types are like containers that hold elements together.
+ 
+For example, the elements of an article include a title, an image, a subtitle and body copy.
+
+![Content Types](assets/content_type.png)
+North Central’s site includes custom content types like program created for the College’s academic degrees.
+  
+> **TIP**  
+> To see all content types that you have access to create, go to Content > Add Content
+
+---   
+
+#### Nodes
+Every piece of content on the site (a page, a video, a program, etc.) is called a node. When you’re editing the site, you’ll see the unique node ID in the browser’s URL bar. Something like this:
+
+> *http://northcentralcollege.edu/node/116/edit*
+
+Site visitors never see this unique ID. Instead, they see standard URLs like:
+
+> *http://northcentralcollege.edu/how-to-apply*  
+
+---   
+
+#### Templates
+Templates pull all the elements of a content type into a visual look. They’re what visitors see when they come to the site. North Central templates are designed to be highly flexible.  
+
+
+---
+
+## Components: The Site's Visual Building Blocks[section-components]
+
+Components are the visual building blocks of the site’s templates. When you create content (e.g. page, program), you are given a variety of components to use. The available components and the way you can arrange them have been carefully thought out to balance flexibility with visual consistency across the site.
+
+The site uses the components listed below most frequently. They are the most important to be familiar with, especially if you manage pages:    
+
+---   
+
+#### Cards 
+![Sample of Card Types](assets/cards.png)
+Cards are interactive blocks that highlight key pieces of information. For example, a profile card features a person’s name, title and their photo. Most cards are intended to guide users to additional information or to take an action. When a user clicks on an event card, for instance, it will take them to the full details of the event. 
+
+---   
+
+#### Stacks  
+![Sample of Card Types](assets/stacks.png)
+Stacks are groupings of cards that open and close as a user interacts with them. If a user is on a desktop computer, for example, the stack will animate when the user clicks a card in the stack. If they are on a smartphone or tablet the stack will animate when they touch a card. 
+
+There are several types of stacks. For example, group, program and highlight. Each includes different types of cards. We’ve selected which stack types to use on each content type. All you need to do is choose places where you want to use stacks and the cards and content that will be included.
+
+> **TIPS**  
+> If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
+> Use a variety of card types when creating a stack.  
+> By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.
+
+---   
+
+#### Teasers  
+![Sampling of Teasers](assets/teasers.png)
+Teasers are groupings of design elements that typically include an image or video, title, subtitle and text. Some also include a call-to-action button. 
+
+There are several types of teasers and you can use them in a variety of combinations. For example, a feature teaser above 4 teaser blocks.
+
+> **TIP**
+> Use teasers to organize page content into easy to scan areas rather than walls of text.  
+
+---   
+
+#### Rich Text 
+![Rich Text](file:///Users/Jason/Desktop/rich_text_front.png)
+Rich text is useful when you need to present longer passages of text. It could also be described as “body copy.” The rich text component allows formatting such as heading styles to give your text hierarchy, making it easier for readers to follow. Bulleted lists, italics and bolding are also available. You can also create links to other pages (a.k.a. crosslinks), external sites or documents like PDFs uploaded to a page.
+![Editor view of rich text wysiwyg editor and front end view.](assets/rich_text.png)
+> **TIPS**
+> Use heading styles in an orderly way. For example, Heading 2 for all headings that hierarchically fall at the same level, then Heading 3 for subheadings that might go under Heading 2 sections.
+> Be purposeful in using formatting tools such as bold. They should add meaning rather than decoration.
+
+---   
+
+#### Billboards
+Billboards are built into the top area of certain content types, such as pages and events. So unlike other components, you won’t need to add billboards manually. Billboards typically display a header image, page title and call-to-action buttons. 
+
+![General Billboard](assets/billboard_general.png)
+
+![Media Billboard](assets/billboard_media.png)
+
+--- 
+
+#### Slider
+The slider component is reserved for the homepage and subsite templates. You can use it to create “slides” of featured news and other content.
+![Slider](assets/slider.png)
+> **TIP**
+> To increase the chance that a user will see a particular piece of content, put it as the first slide. Not all users will scroll through the slides, so important information should not be placed in slides 2, 3, etc.
+
+---
+
+## Image Specifications [section-imagespecs]
+
+---
+
+Minimal preparation is required when uploading images. For example, cropping is not necessary. 
+
+The site will automatically crop the image to fit the design and the screen size the user is visiting the site on. To ensure that auto cropping doesn’t cut off an important part of an image, you can select a focal point when uploading the image. The focal point won’t be cut off it an image needs to be cropped for viewing on smaller screens.
+
+![Image thumbnail with focal point (white crosshair).](assets/focal_point.png)
+
+While you do not need to crop images before uploading, you should follow these size and aspect ratio guides.  
+
+---   
+
+#### Header Image & Slider  
+Header images are part of the billboard component. They appear at the top of certain content types. The slider is used on the homepage and subsites only. 
+
+*Recommended Image Size:* **3840 px x 2160 px**  
+*Recommended Image Ratio:* **16:9**  
+![General Billboard](assets/billboard_general.png "General Billboard")  
+
+---   
+
+#### Image Cards  
+These specifications cover image use in all cards that require a background image. Please note that the styles shown depict best case assets and it’s recommended to follow these when making your image selections.  
+
+*Recommended Image Size:* **1800 px x 1000 px**  
+*Recommended Image Ratio:* **16:9**  
+
+![(From left to right, top to bottom) Call to Action, Profile, Feature, Story, Image, Gallery and Video Cards](assets/cards.png "(From left to right, top to bottom) Call to Action, Profile, Feature, Story, Image, Gallery and Video Cards")
+
+---   
+
+#### Graphic Cards  
+Graphic cards are cards that include icons/graphics, e.g. Call to Action and Factoid. Graphics can be any width and will be automatically sized to fit but a general height of around 300px is best.  
+
+*Recommended Image Size:* **??? px x 600 px**
+
+![Call to Action and Factoid Card](assets/cards_graphic.png "Call to Action and Factoid Cards")
+
+---   
+
+#### Teasers  
+These are the specs for all teaser types: feature, intro, blocks.
+
+*Recommended Image Size:* **1800 px x 1000 px**  
+*Recommended Image Ratio:* **16:9**  
+
+![Smart teaser with three blocks.](assets/teaser_smart.png "Smart teaser with three blocks.")
+
+![Feature Teaser](assets/teaser_feature.png "Feature Teaser")  
+
+---   
+
+#### General Images  
+When using an image on its own (i.e. not in a teaser or card) on a page or other content type, follow these specifications. Note that images can be entered as full-width, full-width with parallax effect or content width.  
+
+*Recommended Image Size:* **3840 px x 2160 px**  
+*Recommended Image Ratio:* **16:9**  
+
+![Full-width and content-width images.](assets/images.png "Full-width and content-width images.")
+
+---
+
+## Word Counts [section-wordounts]
+Most components have a recommended word count to ensure that text fits properly. 
+
+---
+
+### Cards
+
+---
+
+#### Call to Action
+Max: 12 words
+
+#### Call to Action with Image
+Max: 15 words
+
+#### Career
+Max: 20 words
+
+#### Event
+Max: 15 words
+
+#### Factoid
+Max: 15 words
+
+#### Feature
+Max: 12 words
+
+#### News/Article
+Max: 12 words
+
+#### Program
+Max: 15 words
+
+#### Quote
+Max: 15 words
+
+#### Title
+Max: 12 words
+
+---
+
+### Teasers
+
+---
+
+#### Feature Teaser
+Title: 5 - 10 words
+Subhead: 10 - 15 words
+Text: 20 - 30 words
+
+#### Teaser Blocks
+
+##### 3 Blocks
+Title: 5 - 10 words
+Text: 15 - 20 words
+
+##### 4 Blocks
+Title: 8 - 10 words
+Text: 15 - 20 words
+
+##### 2 Blocks
+Title: 10 - 15 words
+Text: 15 - 20 words
+
+---
+
+### Rich Text / Body Copy
+There isn’t a limit to the number of words you can use for rich text or other text that would be considered “body copy” for things like bios, articles, etc.
+
+However, keep in mind that online readers scan more than read. This means that breaking text into chunks with headings will greatly help your audience find relevant information. Also, keep sentences short (20 to 25 words) and don’t be afraid to use single-sentence paragraphs. Newspapers are filled with them.
+
+---
+
+## Logging Into the Site [section-login]
+To manage content, including your profile, go to http://northcentralcollege.edu/user and log in with your North Central network account. This is the same username and password you use for your email, e.g., username@noctrl.edu.
+
+---
+
+## Creating and Editing Content [section-createandedit]
+The types of content and specific pages you have access to create and edit on the site is determined by things like your role — staff or faculty, for example — and how much writing and editing for the site is part of your job responsibilities. 
+
+---  
+
+### How To Create or Edit Any Content Type [section-generalsteps]
+Below is a simple overview of how to create and edit content. The sections that follow in this guide contain more detailed instructions and tips for specific content types.
+
+--- 
+
+> **TIP**
+> Creating and editing content is similar to completing a form. What appears to site visitors on a page, for example, are the fields you fill out.
+
+---
+#### Create Content
+1. After logging into the site, go to My Workbench > Create Content 
+2. Select the type of content you want to create.
+3. Complete the form. 
+  ![Content Menu](assets/content_menu.png)
+> **TIP**
+> Most content types have tabs that correspond to the different parts of the content. For example, the header is the top of a page and includes the image and call-to-action buttons. Make sure to click on each tab to ensure that you are including the necessary information.
+
+4. Find the Save button at the bottom of the screen and select the desired save option. 
+
+> **NOTE**
+> Depending on your editing permissions on the site, you will see different save options. For example, you may be able to publish immediately, or your content will be sent to an editor for review.   
+
+#### Edit Content
+1. After logging into the site, go to the page, program, event, etc. that you want to edit. 
+2. Depending on your editing access and the type of content it is, you will see options for Edit Draft or New Draft. Click one of those. 
+3. Update the text, images or other information as needed.
+4. Find the Save button at the bottom of the screen and select the desired save option.
+
+> **NOTE**
+> Depending on your editing permissions on the site and the type of content you are editing your changes might be reviewed by an editor or published immediately. 
+
+---   
+
+#### Pages [section-pages]
+Pages are the most common content type on the site. Follow these [general steps’] [section-generalsteps] to create or edit a page. Keep these instructions and tips in mind:
+
+##### Adding Page Content 
+![Content tab of page content type](assets/content_page.png)
+1. Go to the content tab on a page you. You will see an option to add content to a section. You add content by selecting the component that will best feature the content you want to add. For example, if it’s a combination of an image, heading title and short amount of text, you should select one of the teaser options.
+2. From the dropdown list, select the component you want to add.
+3. Enter your content into the fields. 
+4. Save your additions or continue to add components and then save.
+
+[More about components'] [section-components] 
+
+> **TIPS**
+> You can add as many or as few components as needed to accommodate the content you want to present to site visitors. Keep in mind that the information, images, etc. on the page shouldn’t feel too sparse or too dense. 
+> To reorder components, use the crosshair symbol to drag and drop.
+> When writing text for call-to-action buttons or links, use descriptive, active words that make it clear where users will go when they click/touch it. For example, “explore majors” rather than “click here.”
+
+
+##### Editing Page Content
+1. Go to the content tab of the page you want to edit.
+2. Find the component you want to edit and select Edit.
+3. Make your changes. 
+4. Scroll to the bottom of the page and save your changes.
+
+
+##### Adding a Page to a Menu
+![Menu Settings](assets/menu_settings.png)
+1. Open the menu settings box. If you are on a desktop computer, it should be on the right side of your screen.
+2. Tick the box that says “Provide a menu link”
+3. Enter a menu title. This is what will appear in a menu. It should be short (no more than 3 words) and clear.
+4. Under Parent item, select the section the page should appear under. 
+5. Save the page.
+
+> **TIPS**
+> To ensure clear menu titles, avoid acronyms or other insider terms.
+> To move an item in a menu, refer to [these instructions'.] [section-reorder] 
+
+---   
+
+#### Programs [section-programs]
+The program content type is primarily intended for presenting academic majors and minors and graduate programs to prospective students. It’s also used to provide information about experiential learning opportunities and other academic- or career-focused programming offered by North Central College.
+
+Follow these [general steps’] [section-generalsteps] to create or edit a program. Keep these instructions and tips in mind:
+
+##### Adding Program Content
+![Program overview tab edit view and front end.](assets/program_overview.png)
+The main content for programs is organized by tabs. By default, every program has an overview tab that should provide a synopsis of the program in a compelling manner.
+
+To add a program overview:
+
+1. Go to the Tab section and enter the overview content. In addition to text, you can include a highlight stack featuring student profiles, quotes and other content.
+2. Save your additions or continue to build the program by adding tabs and then save.
+
+To create a tab:
+1. Go to the Tab section and select Add Tab Section. 
+2. Select an icon that matches the topic of the tab and provide a tab title.
+3. To add text to the tab or other content, select the dropdown list under Content and select the component you want to add. 
+4. Save your additions or continue to build the program by adding tabs and then save.
+![Program Sample](assets/program_bio.png)
+> **TIPS**
+> Your program will automatically be added to the program finder where site visitors can browse all North Central Programs.
+> To add curriculum information, use the Program Acalog component. 
+
+
+##### Editing Program Content
+1. Select the section of the program you want to edit, e.g., content in a tab, contact, categorization.
+2. Make and save your changes.
+
+##### Categorization
+The categorization section of a program is where you enter details about the program that are used in such things as the program finder where visitors browse majors and minors, graduate programs, etc.
+
+
+---   
+
+#### Your Profile [section-profile]
+![Username on CMS menu bar.](assets/profile.png)
+Members of North Central College’s faculty and staff have profiles on the website. Follow these steps to manage yours:
+
+1. Go to http://northcentralcollege.edu/user and log into the site using your North Central network account. This is the same username and password you use for your email, e.g., username@noctrl.edu.
+
+2. On the top of the screen you’ll see your username. Click it, then click Edit profile.
+
+All members of the North Central community with profiles:
+3. Click on Main Profile. This is where you can enter or modify items such as your contact information and a short biography.
+
+4. After you’ve made your entries or edits, go to the bottom of the screen and click Save.
+
+Faculty members:
+5. In addition to your main profile, there is academic-related information (e.g. areas of interests) that you can provide/edit. To do so, go to Faculty Profile.
+6. Enter or edit your information and click Save.
+
+---   
+
+#### Articles, Press Releases, Press Mentions, Stories [section-article]
+ 
+With the article content type you can create a traditional news-style article, a press release or a press mention. There is also an option to create a story. Stories are less time-sensitive, or “evergreen” content. Examples include a feature profile of a member of the North Central community.
+
+Follow these [general steps’] [section-generalsteps] to create the type of article you want to add to the site. (Note: To select the type of article, use the type dropdown list.) Keep these instructions and tips in mind as you create your article:
+
+##### Categorization
+This is the area where you will enter information about the topics the article covers. Adding this information helps the article appear in the proper section of the site and in the “related articles” section of an article. 
+
+Use the category section to:
+> Enter broad topics the article relates to as well as the program/department it might feature. For example, undergraduate, graduate, academics, service learning, student life, journalism.
+
+> Note: The items that you will be able to enter in this section are pre-defined, meaning that they are from a list managed by site administrators. 
+
+Use the tags section to:
+
+> Add more specific topics the article covers. For example, a person, a special award.
+
+---   
+
+#### Events [section-events]
+Events appear in stacks as cards on the site as well as in the main calendar. 
+
+Follow these [general steps’] [section-generalsteps] to create an event. If you want people to be able to register for the event, follow the instructions below.
+
+##### Adding Registration
+1. To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.
+2. Select the type of registration form you want to use and other registration details.
+3. Save the event. 
+
+##### Viewing Registrations
+To see who has signed up for the event, go to the event and open the registration list tab.
+
+---   
+
+#### Webforms [section-webforms]
+Webforms are a way to collect information from site visitors. Depending on your access level on the site you can select pre-built form templates to add to an area of the site. Or you will have the ability to build a form template.
+
+Follow these [general steps’] [section-generalsteps] to begin the form-creation process. Then follow these instructions and tips:
+
+##### Provide Context
+Use the Header > Overview section to include a sentence or two introduction about what the form is for. In a friendly manner, include any special instructions or important information the person completing the form should know.
+ 
+##### Selecting the Form Template
+In the form tab begin entering the name of the form you want to use. 
+
+##### Building a Form Template 
+If you need to create a custom form and have access to the Structure > YAML Forms section of the CMS, follow [these instructions’.][section-buildingwebforms]
+
+If you do not have access to that section, contact a site administrator.
+
+##### Viewing/Downloading Form Data
+If you have access to the Structure > YAML Forms section of the CMS, find the form you’re looking for and you can view and download form submissions there.
+
+If you do not have access, contact a site administrator. 
+
+---   
+
+#### Departments [section-departments]
+The department content type provides a standardized way for departments to present their work, faculty members, academic programs and more.
+
+Follow these [general steps’] [section-generalsteps] to create or edit a department. Keep these instructions and tips in mind:
+
+##### Adding Department Content  
+The main content for departments is organized by tabs. By default, every department has an overview tab that should provide a summary of the department’s activities, offerings, etc.
+
+To add a department overview:
+
+1. Go to the Header section and enter the overview content. In addition to text, you can include a highlight stack featuring student profiles, quotes and other content.
+2. At the bottom of the screen, select a save option to save your work. 
+
+To create tabs:
+
+1. Go to the Tab section and select Add Tab Section. 
+2. Select an icon that matches the topic of the tab and provide a tab title.
+3. To add text to the tab or other content, select the dropdown list under Content and select the component you want to add. 
+4. Save your additions or continue to build the program by adding tabs and then save.
+
+> **TIPS**
+> To add curriculum information, use the Program Acalog component. 
+> To list faculty or staff profiles in a tab, use the Add Profile option and enter the person’s name. 
+> To add a program to a tab, use the Add Program option and enter the name of the program.
+
+##### Editing Department Content
+1. Select the section of the department you want to edit, e.g., content in a tab, contact.
+2. Make and save your changes.
+
+---   
+
+#### Videos and Photo Galleries [section-videosandgalleries]
+To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow these steps’ to create the video or a gallery, then follow these steps to embed it into the site.
+
+1. To add a video or gallery to a page, add a feature teaser or teaser block to a page.  
+2. In the media dropdown list, select either add video or add gallery.
+3. Start typing the title of the video or gallery and then select the one you want to add.
+4. Fill out any remaining items you want to include in the teaser or the page and save the page.
+
+> Note: Some stacks also include cards for adding a video or gallery. Follow the same steps as above to add it. 
+
+---   
+
+#### Alerts [section-alerts]
+Alerts allow you to quickly post a notice on the site, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. 
+
+Follow these [general steps’] [section-generalsteps] to create an alert. 
+
+--- 
+
+#### PDFs and Documents[section-documents]
+You can add PDFs and other documents to certain content types, such as pages. Follow these steps: 
+
+1. Go to the documents tab.
+2. Choose the file you want to make available for download from your computer.
+3. Save the page (or other content type you are editing).
+4. Add or open a rich text or component with rich text (e.g. a teaser) where you want to have the link to download the document. Highlight the text that will be the link and click on the link icon with a plus sign.
+5. Begin typing the title of the file and select it.
+6. Save the page and test your file link.
+
+> **TIPS**
+> Use the name or subject of the file as your link text. 
+
+Good:
+Undergraduate Research Magazine
+
+Bad:
+click here
+
+--- 
+
+#### Links[section-links]
+![Link plus icon in wisywig.](file:///Users/Jason/Desktop/links.png)
+To create a link to a page on the site or an external website:
+
+Highlight the text you want to be the link and click on the link icon with a plus sign.
+Begin typing the name of the page or paste the URL if you’re linking to another website.
+
+> **TIPS**
+> Write links as short, clear calls to action or descriptive text:
+
+Good:
+learn about the lecture
+
+Bad:
+click here
+
+> Leave space between link phrases if there are more than one in a sentence, and use 2-4 words. It can be difficult for mobile users to click on single-word links if they’re near other links.
+
+---  
+
+## Advanced Topics [section-advancedtopics]
+The following sections cover tasks and functionality that not all site users have access to. If you are interested in doing one of these tasks and do not have access to do so on the site, contact a site administrator.
+
+--- 
+
+### Menus [section-managingmenus]
+To manage the site’s menus, go to Structure > Menus. 
+
+The items that will display will vary based on your role on the site, e.g., Admin, Editor, Author.
+
+The most common task involving menus is reordering menu items. 
+
+#### Reordering Menu Items [section-reorder]
+
+1. Select Edit for the menu you want to change. Note: Main navigation is the site’s primary menu.
+2. Use the crosshair to drag and drop the menu item to a new location. You can move it within its sibling items, move it under a new parent, or to a new level.
+3. Select Save to keep your menu changes.
+
+---   
+
+### Webforms: Building and Managing [section-buildingwebforms]
+The site uses the YAML webform module which comes with template-style forms for a variety of common form types, e.g., registration. These templates can be used as a starting point to create custom forms.
+
+#### Building Forms
+To customize a form:
+
+1. Go to Structure > YAML form
+2. Find the form template you want to use as a base and select Duplicate from the edit options.
+3. Give the new form a title and description.
+4. Customize the form by editing or deleting fields and adding new elements/fields.
+5. Click Save elements to save the form. The form will now be available when using the Webform content type.
+
+> **TIPS** 
+> To edit the confirmation message people see when they submit a form (a recommended step), go to the Settings tab of the form and edit the text in the confirmation settings box.  
+> To see the types of fields/elements you can use, view the example forms.
+> The module supports emailing people who submit a form and other more advanced functionality. Learn more about [YAML form features] (http://yamlform.io/features/).  
+
+#### Managing Submissions
+To view, download or take other actions related to form submissions, go to the Results tab of a form.
+
+---  
+
+### Event Management [section-eventmanagement]
+
+The site uses the RNG module for managing event registration. [Learn more about the module] (https://www.drupal.org/project/rng) 
+
+---  
+
+### Taxonomies [section-taxonomies]
+Taxonomies are used to manage things like the categories that programs can be filed under and that appear in the program finder. They are also used to manage categories for other types of content, such as articles and event types.
+
+Taxonomies are also used to manage who can edit certain content on the site. The editorial sections taxonomy is one example.
+
+To manage taxonomies, go to Structure > Taxonomy
+
+> **TIP** 
+> If you want change the name of a term that is already used to categorize content, edit the term rather than delete and add a new term. This way you don’t have to retag the content with the updated term name.
+
+---  
+
+### Editorial Access and Workflows [section-editorialaccess]
+To control specific content (e.g. a particular page or program) a CMS user can edit, the site uses a module called Workbench and taxonomies. 
+
+The primary taxonomy that’s used to manage editing access to content is the Editorial Sections taxonomy. That taxonomy allows for the creation of groups such as Marketing or Admissions. CMS users are assigned to the various editorial sections created.
+
+Certain content, such as pages, includes an editorial sections tab. In that tab you can select an editorial section. Users who are part of that editorial section can then edit the content, even if they did not originally create it. 
+
+An example:
+The undergraduate academics page is tagged with the Marketing and Communications editorial section. Jane is a member of the Marketing and Communications editorial section. Jane can edit the undergraduate academics page even though she isn’t the original author.
+
+To manage the editorial section taxonomy, go to Structure > Taxonomy
+
+To manage Workbench, go to Configuration > Workflow
+
+#### Workbench
+The [Workbench] (https://www.drupal.org/node/2121239) module manages publishing workflows and revisions. 
+
+Workbench can be configured to suit North Central’s editorial needs. Some examples:
+> When an admin creates a new page they can save and publish it immediately
+> When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it 
+> When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft
+
+To configure Workbench settings, go to Configuration > Workflow
+
+---   
+
+### Roles and Permissions [section-rolesandpermissions]
+
+To control actions CMS users can take and the parts of the CMS they have access to, the site uses roles and permissions. 
+
+A “role” is a type of user, e.g., administrator, author, editor. A “permission” is a task that can be completed, e.g., publish a program, delete a page. 
+
+Users are allowed to perform tasks based on the role they are assigned. Roles can be assigned manually by administrators and automatically through the North Central College data source used to authenticate users. Roles and permissions can be expanded and modified as needed. 
+
+To manage roles, go to People > Roles
+
+To manage permissions, go to People > Permissions
+
+---
+
+### Meta Tags/SEO [section-metatags]
+To include information like page descriptions that search engines use to match users’ search queries with web content, the site uses the Meta Tags module.
+
+To add a page description to a page or other piece of content, open the Meta Tags box (it will be on the right-hand side of the page if you’re on a desktop computer). Then enter the description.
+
+You can also manage what’s shown when site content is shared on social networks like Facebook using the Meta Tags module.
+
+The Meta Tags module includes many more ways to optimize content for search engines and social networks. Learn more about the [Meta Tags module] (https://www.drupal.org/project/metatag).
+
+---
+
+### Managing Images and Files [section-managingfiles]
+When adding an image or file to a piece of content, users have the option to select images and files previously uploaded to the site. This can help when images or files need to be used frequently or in multiple places.
+
+To manage the images and other files on the site, go to Content and open the Files tab.
+
+
+---
+ 
+## Glossary[section-glossary]
+
+---
+##### Alternative Text
+A very short description of an image. This description is read to site visitors with visual impairments who use screen readers. 
+
+##### Aspect Ratio
+The ratio of the width to the height of an image.
+
+##### Component
+An element used to build content, primarily pages. E.g. a feature teaser. 
+
+##### Content Type
+The types of content that comprise the site: page, program, event, webform, etc.
+
+##### CTA/Call to Action
+Clickable prompts that guide users to content or to complete an action (e.g. learn more, register, submit form). They are most often buttons.
+
+##### Crosslink
+A link that takes users from one page of the site to another.
+
+##### Focal Point
+A tool that lets CMS users indicate the most important part of an image so it isn’t cut off when an image is auto cropped to fit smaller screen sizes.
+
+##### Metadata
+Information about a piece of content. A common example is the “about this page” description in the Meta Tags section of a page.
+
+##### Node
+A piece of content on the site with a URL. Examples, the homepage, an article, a page.
+
+##### Parallax
+An effect on pages that arranges an image in the background with section content moving on top as the user scrolls. 
+
+##### Paths
+The unique end portion of the URL for a piece of content. For instance, for a page whose full URL is http://northcentralcollege.edu/node/202, the path is node/202. 
+
+##### Responsive
+The auto optimization of a site for multiple devices. For example, a page being just as usable on a smartphone as it is on a desktop.
+
+##### Stack
+A design component unique to NorthCentralCollege.edu. It is a collection of cards that animates when a user interacts with it.
+
+##### Tray
+An area of the screen that can be opened and closed to reveal additional content or tools. It is on the right-hand side when viewing on a desktop. The filters in the program finder are one example.
+
+##### URL
+The “address” of a piece of content. E.g. the URL for the homepage is http://northcentralcollege.edu/home
+
+##### Workbench
+Where CMS users create and manage content. It also controls the publishing workflow.
