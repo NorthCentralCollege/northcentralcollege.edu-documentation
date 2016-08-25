@@ -507,7 +507,7 @@ To create tabs:
 ---   
 
 #### Videos and Photo Galleries [section-videosandgalleries]
-To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow these steps’ to create the video or a gallery, then follow these steps to embed it into the site.
+To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow [these steps’][section-generalsteps]to create the video or a gallery, then follow these steps to embed it into the site.
 
 1. To add a video or gallery to a page, add a feature teaser or teaser block to a page.  
 2. In the media dropdown list, select either add video or add gallery.
