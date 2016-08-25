@@ -325,7 +325,7 @@ Below is a simple overview of how to create and edit content. The sections that 
 ---   
 
 #### Pages [section-pages]
-Pages are the most common content type on the site. Follow these [general steps’] [section-generalsteps] to create or edit a page. Keep these instructions and tips in mind:
+Pages are the most common content type on the site. Follow these [general steps] [section-generalsteps] to create or edit a page. Keep these instructions and tips in mind:
 
 ##### Adding Page Content 
 ![Content tab of page content type](assets/content_page.png)
@@ -334,7 +334,7 @@ Pages are the most common content type on the site. Follow these [general steps�
 3. Enter your content into the fields. 
 4. Save your additions or continue to add components and then save.
 
-[More about components'] [section-components] 
+[More about components] [section-components] 
 
 > **TIPS**
 > You can add as many or as few components as needed to accommodate the content you want to present to site visitors. Keep in mind that the information, images, etc. on the page shouldn’t feel too sparse or too dense. 
@@ -359,14 +359,14 @@ Pages are the most common content type on the site. Follow these [general steps�
 
 > **TIPS**
 > To ensure clear menu titles, avoid acronyms or other insider terms.
-> To move an item in a menu, refer to [these instructions'.] [section-reorder] 
+> To move an item in a menu, refer to [these instructions.] [section-reorder] 
 
 ---   
 
 #### Programs [section-programs]
 The program content type is primarily intended for presenting academic majors and minors and graduate programs to prospective students. It’s also used to provide information about experiential learning opportunities and other academic- or career-focused programming offered by North Central College.
 
-Follow these [general steps’] [section-generalsteps] to create or edit a program. Keep these instructions and tips in mind:
+Follow these [general steps] [section-generalsteps] to create or edit a program. Keep these instructions and tips in mind:
 
 ##### Adding Program Content
 ![Program overview tab edit view and front end.](assets/program_overview.png)
@@ -421,7 +421,7 @@ Faculty members:
  
 With the article content type you can create a traditional news-style article, a press release or a press mention. There is also an option to create a story. Stories are less time-sensitive, or “evergreen” content. Examples include a feature profile of a member of the North Central community.
 
-Follow these [general steps’] [section-generalsteps] to create the type of article you want to add to the site. (Note: To select the type of article, use the type dropdown list.) Keep these instructions and tips in mind as you create your article:
+Follow these [general steps] [section-generalsteps] to create the type of article you want to add to the site. (Note: To select the type of article, use the type dropdown list.) Keep these instructions and tips in mind as you create your article:
 
 ##### Categorization
 This is the area where you will enter information about the topics the article covers. Adding this information helps the article appear in the proper section of the site and in the “related articles” section of an article. 
@@ -440,7 +440,7 @@ Use the tags section to:
 #### Events [section-events]
 Events appear in stacks as cards on the site as well as in the main calendar. 
 
-Follow these [general steps’] [section-generalsteps] to create an event. If you want people to be able to register for the event, follow the instructions below.
+Follow these [general steps] [section-generalsteps] to create an event. If you want people to be able to register for the event, follow the instructions below.
 
 ##### Adding Registration
 1. To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.
@@ -455,7 +455,7 @@ To see who has signed up for the event, go to the event and open the registratio
 #### Webforms [section-webforms]
 Webforms are a way to collect information from site visitors. Depending on your access level on the site you can select pre-built form templates to add to an area of the site. Or you will have the ability to build a form template.
 
-Follow these [general steps’] [section-generalsteps] to begin the form-creation process. Then follow these instructions and tips:
+Follow these [general steps] [section-generalsteps] to begin the form-creation process. Then follow these instructions and tips:
 
 ##### Provide Context
 Use the Header > Overview section to include a sentence or two introduction about what the form is for. In a friendly manner, include any special instructions or important information the person completing the form should know.
@@ -464,7 +464,7 @@ Use the Header > Overview section to include a sentence or two introduction abou
 In the form tab begin entering the name of the form you want to use. 
 
 ##### Building a Form Template 
-If you need to create a custom form and have access to the Structure > YAML Forms section of the CMS, follow [these instructions’.][section-buildingwebforms]
+If you need to create a custom form and have access to the Structure > YAML Forms section of the CMS, follow [these instructions.][section-buildingwebforms]
 
 If you do not have access to that section, contact a site administrator.
 
@@ -478,7 +478,7 @@ If you do not have access, contact a site administrator.
 #### Departments [section-departments]
 The department content type provides a standardized way for departments to present their work, faculty members, academic programs and more.
 
-Follow these [general steps’] [section-generalsteps] to create or edit a department. Keep these instructions and tips in mind:
+Follow these [general steps] [section-generalsteps] to create or edit a department. Keep these instructions and tips in mind:
 
 ##### Adding Department Content  
 The main content for departments is organized by tabs. By default, every department has an overview tab that should provide a summary of the department’s activities, offerings, etc.
@@ -507,7 +507,7 @@ To create tabs:
 ---   
 
 #### Videos and Photo Galleries [section-videosandgalleries]
-To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow [these steps’][section-generalsteps]to create the video or a gallery, then follow these steps to embed it into the site.
+To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow [these steps][section-generalsteps]to create the video or a gallery, then follow these steps to embed it into the site.
 
 1. To add a video or gallery to a page, add a feature teaser or teaser block to a page.  
 2. In the media dropdown list, select either add video or add gallery.
@@ -521,7 +521,7 @@ To place videos and photo galleries into an area of the site, the first step is 
 #### Alerts [section-alerts]
 Alerts allow you to quickly post a notice on the site, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. 
 
-Follow these [general steps’] [section-generalsteps] to create an alert. 
+Follow these [general steps] [section-generalsteps] to create an alert. 
 
 --- 
 
