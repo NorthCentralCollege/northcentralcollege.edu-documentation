@@ -180,7 +180,7 @@ These specifications cover image use in all cards that require a background imag
 #### Graphic Cards  
 Graphic cards are cards that include icons/graphics, e.g. Call to Action and Factoid. Graphics can be any width and will be automatically sized to fit but a general height of around 300px is best.  
 
-*Recommended Image Size:* **??? px x 600 px**
+*Recommended Image Size:* **any px x 600 px**
 
 ![Call to Action and Factoid Card](assets/cards_graphic.png "Call to Action and Factoid Cards")
 
