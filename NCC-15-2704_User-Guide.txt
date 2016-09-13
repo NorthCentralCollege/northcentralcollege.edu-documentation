@@ -329,7 +329,7 @@ Pages are the most common content type on the site. Follow these [general steps]
 
 ##### Adding Page Content 
 ![Content tab of page content type](assets/content_page.png)
-1. Go to the content tab on a page you. You will see an option to add content to a section. You add content by selecting the component that will best feature the content you want to add. For example, if it’s a combination of an image, heading title and short amount of text, you should select one of the teaser options.
+1. Go to the content tab on a page you want to edit. You will see an option to add content to a section. Add content by selecting the component that will best feature the content you want to include. For example, if it’s a combination of an image, heading title and short amount of text, you should select one of the teaser options.
 2. From the dropdown list, select the component you want to add.
 3. Enter your content into the fields. 
 4. Save your additions or continue to add components and then save.
