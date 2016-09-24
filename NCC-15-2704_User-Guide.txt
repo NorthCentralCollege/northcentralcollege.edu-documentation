@@ -185,6 +185,19 @@ Includes a title, subtitle, area for text, and spot for media (image, video or g
 Allows for up to 4 blocks that each include a title, short description, image and image. Use it to summarize a topic and lead users to more information with the CTA. 
 
 ---   
+#### Calls to Action / CTAs
+Call-to-actions are available throughout the site in a similar way as buttons on the current North Central site.
+
+There are two types:
+> CTA buttons on headers and teasers
+> CTA cards
+
+> **TIPS**
+> Use CTAs for the most important thing you want users to do next or learn more about.
+> CTAs should guide users to tasks or information in context of the content they appear. For example, on a program page Apply would be a likely action users would want to take.
+> Do not overuse CTAs on a page or other content. If there are too many, they won't do their job of standing out.
+
+---
 
 #### Rich Text 
 ![Rich Text](file:///Users/Jason/Desktop/rich_text_front.png)
@@ -314,6 +327,9 @@ When using an image on its own (i.e. not in a teaser or card) on a page or other
 
 ![Full-width and content-width images.](assets/images.png "Full-width and content-width images.")
 
+##### About Parallax Effect
+With parallax, images are arranged in the background, with section content overlaying it so content moves on top of the image as the user scrolls. To use this effect, set layout to “full” when adding your image.
+
 ---
 
 ## Word Counts [section-wordounts]
@@ -396,6 +412,11 @@ To manage content, including your profile, go to http://northcentralcollege.edu/
 
 ## Creating and Editing Content [section-createandedit]
 The types of content and specific pages you have access to create and edit on the site is determined by things like your role — staff or faculty, for example — and how much writing and editing for the site is part of your job responsibilities. 
+
+### Workbench
+If you have access to edit or create content on the site you will see an area called Workbench when you log in. This is where you will go to do any content-related activities on the site. For example, find content you created and want to edit or create new content.
+
+The Workbench menu contains different items depending on a person’s role. For example, members of the marketing department will see different items than other departments.
 
 ---  
 
@@ -529,6 +550,21 @@ Faculty members:
  
 With the article content type you can create a traditional news-style article, a press release or a press mention. There is also an option to create a story. Stories are less time-sensitive, or “evergreen” content. Examples include a feature profile of a member of the North Central community.
 
+##### North Central Faculty and Staff
+The new site’s article feature is essentially replacing the current Pride news area. You are encouraged to use the new site to create news articles about your department, major, students, etc. Examples include awards, achievements, notable publications or other scholarly activities, etc.
+
+Through the categorization section of the article (described below) you will be able to add information that will place the article in your area of the site. 
+
+To have the Office of Marketing and Communications consider putting the article on the homepage of the site, [submit a request] (https://cardinalnet.northcentralcollege.edu/misc/website-management) that includes a link to the article. 
+
+##### Office of Marketing and Communications
+The instructions below cover how to create an article. To add an article to the homepage:
+1. Go to the homepage.
+2. Select New Draft.
+3. Open the Homepage tab.
+4. Select Add slide, complete the fields, and choose the save option you want.
+
+##### How to Create Articles
 Follow these [general steps] [section-generalsteps] to create the type of article you want to add to the site. (Note: To select the type of article, use the type dropdown list.) Keep these instructions and tips in mind as you create your article:
 
 ##### Categorization
