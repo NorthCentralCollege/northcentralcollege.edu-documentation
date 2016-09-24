@@ -20,8 +20,9 @@
 * [PDFs and Documents][section-documents]
 * [Links][section-links]
 * [Advanced Topics] [section-advancedtopics]
+* [Events with Registration] [section-eventregistration]
 * [Managing Menus][section-managingmenus]
-* [Webforms: Building and managing][section-buildingwebforms]
+* [Webforms: Building and Managing][section-buildingwebforms]
 * [Event Management][section-eventmanagement]
 * [Taxonomies][section-taxonomies]
 * [Editorial Access and Workflows][section-editorialaccess]
@@ -582,40 +583,14 @@ Use the tags section to:
 ---   
 
 #### Events [section-events]
-Events appear in stacks as cards on the site as well as in the main calendar. 
+Events will be pulled into the site from the current North Central event calendar and room reservation system.
 
-Follow these [general steps] [section-generalsteps] to create an event. If you want people to be able to register for the event, follow the instructions below.
-
-##### Adding Registration
-1. To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.
-2. Select the type of registration form you want to use and other registration details.
-3. Save the event. 
-
-##### Viewing Registrations
-To see who has signed up for the event, go to the event and open the registration list tab.
+Follow [these instructions](https://calendar.noctrl.edu/documents/guide/Calendar%20Listing%20&%20Location%20Request%20Guide.pdf) to add events and reserve a location.
 
 ---   
 
 #### Webforms [section-webforms]
-Webforms are a way to collect information from site visitors. Depending on your access level on the site you can select pre-built form templates to add to an area of the site. Or you will have the ability to build a form template.
-
-Follow these [general steps] [section-generalsteps] to begin the form-creation process. Then follow these instructions and tips:
-
-##### Provide Context
-Use the Header > Overview section to include a sentence or two introduction about what the form is for. In a friendly manner, include any special instructions or important information the person completing the form should know.
- 
-##### Selecting the Form Template
-In the form tab begin entering the name of the form you want to use. 
-
-##### Building a Form Template 
-If you need to create a custom form and have access to the Structure > YAML Forms section of the CMS, follow [these instructions.][section-buildingwebforms]
-
-If you do not have access to that section, contact a site administrator.
-
-##### Viewing/Downloading Form Data
-If you have access to the Structure > YAML Forms section of the CMS, find the form you’re looking for and you can view and download form submissions there.
-
-If you do not have access, contact a site administrator. 
+Webforms are a way to collect information from site visitors. To edit an existing form or create a new one, [submit a request] (https://cardinalnet.northcentralcollege.edu/misc/website-management).
 
 ---   
 
@@ -713,6 +688,21 @@ click here
 ## Advanced Topics [section-advancedtopics]
 The following sections cover tasks and functionality that not all site users have access to. If you are interested in doing one of these tasks and do not have access to do so on the site, contact a site administrator.
 
+---
+### Events with Registration [section-eventregistration]
+
+Events appear in stacks as cards on the site as well as in the main calendar. In some cases, e.g. visit days, events are created on the site rather than pulled in from the current North Central calendar and room reservation system.
+
+Follow these [general steps] [section-generalsteps] to create an event. To ensure that the event appears in the correct area of the site, make sure to complete the categorization tab of the event. If you want people to be able to register for the event, follow the instructions below. 
+
+##### Adding Registration
+1. To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.
+2. Select the type of registration form you want to use and other registration details.
+3. Save the event. 
+
+##### Viewing Registrations
+To see who has signed up for the event, go to the event and open the registration list tab.
+
 --- 
 
 ### Menus [section-managingmenus]
@@ -731,12 +721,24 @@ The most common task involving menus is reordering menu items.
 ---   
 
 ### Webforms: Building and Managing [section-buildingwebforms]
-The site uses the YAML webform module which comes with template-style forms for a variety of common form types, e.g., registration. These templates can be used as a starting point to create custom forms.
 
-#### Building Forms
+Depending on your access level on the site you can select pre-built form templates to add to an area of the site. Or you will have the ability to build a form template.
+
+#### Create a Form from a Template
+Follow these [general steps] [section-generalsteps] to begin the form-creation process. Then follow these instructions and tips:
+
+##### Provide Context
+Use the Header > Overview section to include a sentence or two introduction about what the form is for. In a friendly manner, include any special instructions or important information the person completing the form should know.
+ 
+##### Selecting the Form Template
+In the form tab begin entering the name of the form you want to use. 
+
+#### Build a Custom Form Template 
+The site uses the YAML webform module which comes with template-style forms for a variety of common form types, e.g., registration. These templates can be used as a starting point to create custom forms. If you need to create a custom form and have access to the Structure > YAML Forms section of the CMS, follow the instructions below. If you do not have access to that section, contact a site administrator.
+
 To customize a form:
 
-1. Go to Structure > YAML form
+1. Go to Structure or Shortcut > YAML form
 2. Find the form template you want to use as a base and select Duplicate from the edit options.
 3. Give the new form a title and description.
 4. Customize the form by editing or deleting fields and adding new elements/fields.
