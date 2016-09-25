@@ -16,10 +16,10 @@
 * [Webforms][section-webforms]
 * [Departments][section-departments]
 * [Videos and Galleries][section-videosandgalleries]
-* [Alerts][section-alerts]
 * [PDFs and Documents][section-documents]
 * [Links][section-links]
 * [Advanced Topics] [section-advancedtopics]
+* [Alerts][section-alerts]
 * [Events with Registration] [section-eventregistration]
 * [Managing Menus][section-managingmenus]
 * [Webforms: Building and Managing][section-buildingwebforms]
@@ -30,6 +30,7 @@
 * [Meta Tags/SEO][section-metatags]
 * [Managing Images and Files][section-managingfiles]
 * [Glossary][section-glossary]
+* [Contact: Feedback and Requests][section-contact]
 
 ---
 
@@ -419,6 +420,12 @@ If you have access to edit or create content on the site you will see an area ca
 
 The Workbench menu contains different items depending on a person’s role. For example, members of the marketing department will see different items than other departments.
 
+### Review and Publishing
+There is an editorial review process that determines which content can be published immediately when you create or edit it, and which content that the Office of Marketing and Communications will review and either publish or return for edits. In the saving options, if you see the option to Save and Publish, your content will be published without review.
+
+### Content Requests and Guidance
+[Submit a ticket] (https://cardinalnet.northcentralcollege.edu/misc/website-management) if you need assistance editing or creating content or have other content-related comments or issues.
+
 ---  
 
 ### How To Create or Edit Any Content Type [section-generalsteps]
@@ -536,12 +543,12 @@ Members of North Central College’s faculty and staff have profiles on the webs
 
 2. On the top of the screen you’ll see your username. Click it, then click Edit profile.
 
-All members of the North Central community with profiles:
+*All members of the North Central community with profiles:*
 3. Click on Main Profile. This is where you can enter or modify items such as your contact information and a short biography.
 
 4. After you’ve made your entries or edits, go to the bottom of the screen and click Save.
 
-Faculty members:
+*Faculty members:*
 5. In addition to your main profile, there is academic-related information (e.g. areas of interests) that you can provide/edit. To do so, go to Faculty Profile.
 6. Enter or edit your information and click Save.
 
@@ -637,15 +644,17 @@ To place videos and photo galleries into an area of the site, the first step is 
 
 ---   
 
-#### Alerts [section-alerts]
-Alerts allow you to quickly post a notice on the site, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. 
-
-Follow these [general steps] [section-generalsteps] to create an alert. 
-
---- 
-
 #### PDFs and Documents[section-documents]
-You can add PDFs and other documents to certain content types, such as pages. Follow these steps: 
+You can add PDFs and other documents to certain content types, such as pages. 
+
+Document types that can be uploaded:
+> Word
+> PDF
+> Powerpoint
+> Excel 
+> Text
+
+To add a document, follow these steps: 
 
 1. Go to the documents tab.
 2. Choose the file you want to make available for download from your computer.
@@ -687,6 +696,16 @@ click here
 
 ## Advanced Topics [section-advancedtopics]
 The following sections cover tasks and functionality that not all site users have access to. If you are interested in doing one of these tasks and do not have access to do so on the site, contact a site administrator.
+
+---
+
+### Alerts [section-alerts]
+![alert examples](http://placehold.it/1280x800)
+Alerts allow you to quickly post a notice on the homepage, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. 
+
+Follow these [general steps] [section-generalsteps] to create an alert. Note: the ability to create alerts is limited to certain members of North Central staff.
+
+--- 
 
 ---
 ### Events with Registration [section-eventregistration]
@@ -881,3 +900,8 @@ The “address” of a piece of content. E.g. the URL for the homepage is http:/
 
 ##### Workbench
 Where CMS users create and manage content. It also controls the publishing workflow.
+
+---
+## Contact: Feedback and Requests [section-contact]
+
+To give feedback on the website, submit bugs or ask for assistance, please [complete a request form] (https://cardinalnet.northcentralcollege.edu/misc/website-management).
