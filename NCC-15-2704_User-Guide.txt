@@ -178,9 +178,9 @@ Stacks are groupings of cards that open and close as a user interacts with them.
 There are several types of stacks. For example, group, program and highlight. Each includes different types of cards. We’ve selected which stack types to use on each content type. All you need to do is choose places where you want to use stacks and the cards and content that will be included.
 
 > **TIPS**  
-> If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
-> Use a variety of card types when creating a stack.  
-> By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.
+> * If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
+> * Use a variety of card types when creating a stack.  
+> * By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.
 
 ---   
 
