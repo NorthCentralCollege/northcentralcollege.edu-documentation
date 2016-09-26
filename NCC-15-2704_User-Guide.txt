@@ -717,7 +717,7 @@ The following sections cover tasks and functionality that not all site users hav
 ![alert examples](assets/alert.png
 Alerts allow you to quickly post a notice on the homepage, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. 
 
-Follow these [general steps] [section-generalsteps] to create an alert. Note: the ability to create alerts is limited to certain members of North Central staff.
+Note: the ability to create alerts is limited to certain members of North Central staff. Follow these [general steps] [section-generalsteps] to create an alert. 
 
 --- 
 
@@ -725,7 +725,7 @@ Follow these [general steps] [section-generalsteps] to create an alert. Note: th
 
 Events appear in stacks as cards on the site as well as in the main calendar. In some cases, e.g. visit days, events are created on the site rather than pulled in from the current North Central calendar and room reservation system.
 
-Follow these [general steps] [section-generalsteps] to create an event. To ensure that the event appears in the correct area of the site, make sure to complete the categorization tab of the event. If you want people to be able to register for the event, follow the instructions below. 
+If you have access to create events, follow these [general steps] [section-generalsteps] to create an event. To ensure that the event appears in the correct area of the site, make sure to complete the categorization tab of the event. If you want people to be able to register for the event, follow the instructions below. 
 
 ##### Adding Registration
 1. To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.
@@ -738,7 +738,7 @@ To see who has signed up for the event, go to the event and open the registratio
 --- 
 
 ### Menus [section-managingmenus]
-Note: Not all users have access to managing menus. If you do not have access to the menu area described below and need a change made to a menu, [submit a request] (https://cardinalnet.northcentralcollege.edu/misc/website-management).
+Note: Not all users have access to manage menus. If you do not have access to the menu area described below and need a change made to a menu, [submit a request] (https://cardinalnet.northcentralcollege.edu/misc/website-management).
 
 To manage the site’s menus, go to Structure or Shortcuts > Menus. 
 
@@ -822,9 +822,9 @@ To manage Workbench, go to Configuration > Workflow
 The [Workbench] (https://www.drupal.org/node/2121239) module manages publishing workflows and revisions. 
 
 Workbench can be configured to suit North Central’s editorial needs. Some examples:
-* When an admin creates a new page they can save and publish it immediately
-* When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it 
-* When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft
+* When an admin creates a new page they can save and publish it immediately.
+* When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it.
+* When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft.
 
 To configure Workbench settings, go to Configuration > Workflow
 
