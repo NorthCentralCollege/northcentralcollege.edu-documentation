@@ -741,9 +741,9 @@ To see who has signed up for the event, go to the event and open the registratio
 --- 
 
 ### Menus [section-managingmenus]
-To manage the site’s menus, go to Structure > Menus. 
+Note: Not all users have access to managing menus. If you do not have access to the menu area described below and need a change made to a menu, [submit a request] (https://cardinalnet.northcentralcollege.edu/misc/website-management).
 
-The items that will display will vary based on your role on the site, e.g., Admin, Editor, Author.
+To manage the site’s menus, go to Structure or Shortcuts > Menus. 
 
 The most common task involving menus is reordering menu items. 
 
