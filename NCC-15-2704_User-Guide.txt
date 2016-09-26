@@ -190,8 +190,8 @@ Teasers are groupings of design elements that typically include an image or vide
 
 There are several types of teasers and you can use them in a variety of combinations. For example, a feature teaser above 4 teaser blocks.
 
-> **TIP**
-> Use teasers to organize page content into easy to scan areas rather than walls of text.  
+##### TIP
+* Use teasers to organize page content into easy to scan areas rather than walls of text.  
 
 ![Intro Teaser](assets/teaser_intro.png)
 ##### Intro Teaser
@@ -213,10 +213,10 @@ There are two types:
 * CTA buttons on headers and teasers
 * CTA cards
 
-> **TIPS**
-> Use CTAs for the most important thing you want users to do next or learn more about.
-> CTAs should guide users to tasks or information in context of the content they appear. For example, on a program page Apply would be a likely action users would want to take.
-> Do not overuse CTAs on a page or other content. If there are too many, they won't do their job of standing out.
+##### TIPS
+* Use CTAs for the most important thing you want users to do next or learn more about.
+* CTAs should guide users to tasks or information in context of the content they appear. For example, on a program page Apply would be a likely action users would want to take.
+* Do not overuse CTAs on a page or other content. If there are too many, they won't do their job of standing out.
 
 ---
 
@@ -224,9 +224,9 @@ There are two types:
 ![Rich Text](assets/rich_text_front.png)
 Rich text is useful when you need to present longer passages of text. It could also be described as “body copy.” The rich text component allows formatting such as heading styles to give your text hierarchy, making it easier for readers to follow. Bulleted lists, italics and bolding are also available. You can also create links to other pages (a.k.a. crosslinks), external sites or documents like PDFs uploaded to a page.
 
-> **TIPS**
-> Use heading styles to structure your text. See below for reasons why and how to. 
-> Be purposeful in using formatting tools such as bold and italics. They should add meaning rather than decoration.
+##### TIPS
+* Use heading styles to structure your text. See below for reasons why and how to. 
+* Be purposeful in using formatting tools such as bold and italics. They should add meaning rather than decoration.
 
 ##### Heading Styles
 ![annotated image of page with heading styles](assets/rich_text_header.png)
@@ -236,9 +236,9 @@ IMPORTANT: Do not use bold for headings and subheadings. Only use bold for empha
 
 Headings are necessary because they: 
 
-> Give hierarchical structure and order to your information, making it more useful to users.
-> Are essential for accessibility; visitors using a screen reader need headings to understand the order of information.
-> Are important for SEO (search engine optimization). 
+* Give hierarchical structure and order to your information, making it more useful to users.
+* Are essential for accessibility; visitors using a screen reader need headings to understand the order of information.
+* Are important for SEO (search engine optimization). 
 
 ##### How to Add Headings
 1. Highlight the text you want to make a heading.
@@ -249,9 +249,9 @@ Headings are necessary because they:
 ![table example](assets/table.png)
 The table component is for adding tabular data to a page. Please note that the table should only be used for numerical-type information and not for organizing paragraphs. In other words, use tables for structured information that is primarily numbers; do not use it for primarily prose that could be presented with normal text.
 
-> **EXAMPLES**
-> Do: use a table to show the tuition for degree programs for the upcoming academic year.
-> Don’t: use tables to list descriptions of different types of programs or organizations. 
+##### EXAMPLES
+* Do: use a table to show the tuition for degree programs for the upcoming academic year.
+* Don’t: use tables to list descriptions of different types of programs or organizations. 
 
 ##### How to Add a Table
 It’s a good idea to put your table in context with a title and any explanatory copy that will help users understand it. You can do that with the rich text component or an intro teaser. Once you have added that text with the rich text or intro teaser:
@@ -260,10 +260,10 @@ It’s a good idea to put your table in context with a title and any explanatory
 2. Enter the number of rows and columns you’ll need. You can adjust this if you need to.
 3. Enter the data into the table.
 
-> **TIPS**
-> Use the rich text component (or an intro teaser) for any explanatory copy related to the table. 
-> If you use column headers, make sure to have them on each column so the table displays properly on mobile.
-> Don't use footnotes in the table or descriptive copy about the data. That info should be in the rich text or other component.
+##### TIPS
+* Use the rich text component (or an intro teaser) for any explanatory copy related to the table. 
+* If you use column headers, make sure to have them on each column so the table displays properly on mobile.
+* Don't use footnotes in the table or descriptive copy about the data. That info should be in the rich text or other component.
 
 ---   
 
@@ -279,8 +279,9 @@ Billboards are built into the top area of certain content types, such as pages a
 #### Slider
 The slider component is reserved for the homepage and subsite templates. You can use it to create “slides” of featured news and other content.
 ![Slider](assets/slider.png)
-> **TIP**
-> To increase the chance that a user will see a particular piece of content, put it as the first slide. Not all users will scroll through the slides, so important information should not be placed in slides 2, 3, etc.
+
+##### TIP
+* To increase the chance that a user will see a particular piece of content, put it as the first slide. Not all users will scroll through the slides, so important information should not be placed in slides 2, 3, etc.
 
 ---
 
@@ -450,8 +451,8 @@ Below is a simple overview of how to create and edit content. The sections that 
 
 --- 
 
-> **TIP**
-> Creating and editing content is similar to completing a form. What appears to site visitors on a page, for example, are the fields you fill out.
+##### TIP
+* Creating and editing content is similar to completing a form. What appears to site visitors on a page, for example, are the fields you fill out.
 
 ---
 #### Create Content
@@ -459,8 +460,9 @@ Below is a simple overview of how to create and edit content. The sections that 
 2. Select the type of content you want to create.
 3. Complete the form. 
   ![Content Menu](assets/content_menu.png)
-> **TIP**
-> Most content types have tabs that correspond to the different parts of the content. For example, the header is the top of a page and includes the image and call-to-action buttons. Make sure to click on each tab to ensure that you are including the necessary information.
+
+##### TIP
+* Most content types have tabs that correspond to the different parts of the content. For example, the header is the top of a page and includes the image and call-to-action buttons. Make sure to click on each tab to ensure that you are including the necessary information.
 
 4. Find the Save button at the bottom of the screen and select the desired save option. 
 
@@ -490,10 +492,10 @@ Pages are the most common content type on the site. Follow these [general steps]
 
 [More about components] [section-components] 
 
-> **TIPS**
-> You can add as many or as few components as needed to accommodate the content you want to present to site visitors. Keep in mind that the information, images, etc. on the page shouldn’t feel too sparse or too dense. 
-> To reorder components, use the crosshair symbol to drag and drop.
-> When writing text for call-to-action buttons or links, use descriptive, active words that make it clear where users will go when they click/touch it. For example, “explore majors” rather than “click here.”
+##### TIPS
+* You can add as many or as few components as needed to accommodate the content you want to present to site visitors. Keep in mind that the information, images, etc. on the page shouldn’t feel too sparse or too dense. 
+* To reorder components, use the crosshair symbol to drag and drop.
+* When writing text for call-to-action buttons or links, use descriptive, active words that make it clear where users will go when they click/touch it. For example, “explore majors” rather than “click here.”
 
 
 ##### Editing Page Content
@@ -511,9 +513,9 @@ Pages are the most common content type on the site. Follow these [general steps]
 4. Under Parent item, select the section the page should appear under. 
 5. Save the page.
 
-> **TIPS**
-> To ensure clear menu titles, avoid acronyms or other insider terms.
-> To move an item in a menu, refer to [these instructions.] [section-reorder] 
+##### TIPS
+* To ensure clear menu titles, avoid acronyms or other insider terms.
+* To move an item in a menu, refer to [these instructions.] [section-reorder] 
 
 ---   
 
@@ -537,9 +539,10 @@ To create a tab:
 3. To add text to the tab or other content, select the dropdown list under Content and select the component you want to add. 
 4. Save your additions or continue to build the program by adding tabs and then save.
 ![Program Sample](assets/program_bio.png)
-> **TIPS**
-> Your program will automatically be added to the program finder where site visitors can browse all North Central Programs.
-> To add curriculum information, use the Program Acalog component. 
+
+##### TIPS
+* Your program will automatically be added to the program finder where site visitors can browse all North Central Programs.
+* To add curriculum information, use the Program Acalog component. 
 
 
 ##### Editing Program Content
@@ -561,6 +564,7 @@ Members of North Central College’s faculty and staff have profiles on the webs
 2. On the top of the screen you’ll see your username. Click it, then click Edit profile.
 
 *All members of the North Central community with profiles:*
+
 3. Click on Main Profile. This is where you can enter or modify items such as your contact information and a short biography.
 
 4. After you’ve made your entries or edits, go to the bottom of the screen and click Save.
@@ -638,10 +642,10 @@ To create tabs:
 3. To add text to the tab or other content, select the dropdown list under Content and select the component you want to add. 
 4. Save your additions or continue to build the program by adding tabs and then save.
 
-> **TIPS**
-> To add curriculum information, use the Program Acalog component. 
-> To list faculty or staff profiles in a tab, use the Add Profile option and enter the person’s name. 
-> To add a program to a tab, use the Add Program option and enter the name of the program.
+##### TIPS
+* To add curriculum information, use the Program Acalog component. 
+* To list faculty or staff profiles in a tab, use the Add Profile option and enter the person’s name. 
+* To add a program to a tab, use the Add Program option and enter the name of the program.
 
 ##### Editing Department Content
 1. Select the section of the department you want to edit, e.g., content in a tab, contact.
@@ -680,14 +684,12 @@ To add a document, follow these steps:
 5. Begin typing the title of the file and select it.
 6. Save the page and test your file link.
 
-> **TIPS**
-> Use the name or subject of the file as your link text. 
+##### TIP
+* Use the name or subject of the file as your link text: 
 
-Good:
-Undergraduate Research Magazine
+* Good: Undergraduate Research Magazine
 
-Bad:
-click here
+* Bad: click here
 
 --- 
 
@@ -698,16 +700,14 @@ To create a link to a page on the site or an external website:
 Highlight the text you want to be the link and click on the link icon with a plus sign.
 Begin typing the name of the page or paste the URL if you’re linking to another website.
 
-> **TIPS**
-> Write links as short, clear calls to action or descriptive text:
+##### TIPS
+* Write links as short, clear calls to action or descriptive text:
 
-Good:
-learn about the lecture
+* Good: learn about the lecture
 
-Bad:
-click here
+* Bad: click here
 
-> Leave space between link phrases if there are more than one in a sentence, and use 2-4 words. It can be difficult for mobile users to click on single-word links if they’re near other links.
+* Leave space between link phrases if there are more than one in a sentence, and use 2-4 words. It can be difficult for mobile users to click on single-word links if they’re near other links.
 
 ---  
 
@@ -779,10 +779,10 @@ To customize a form:
 4. Customize the form by editing or deleting fields and adding new elements/fields.
 5. Click Save elements to save the form. The form will now be available when using the Webform content type.
 
-> **TIPS** 
-> To edit the confirmation message people see when they submit a form (a recommended step), go to the Settings tab of the form and edit the text in the confirmation settings box.  
-> To see the types of fields/elements you can use, view the example forms.
-> The module supports emailing people who submit a form and other more advanced functionality. Learn more about [YAML form features] (http://yamlform.io/features/).  
+##### TIPS 
+* To edit the confirmation message people see when they submit a form (a recommended step), go to the Settings tab of the form and edit the text in the confirmation settings box.  
+* To see the types of fields/elements you can use, view the example forms.
+* The module supports emailing people who submit a form and other more advanced functionality. Learn more about [YAML form features] (http://yamlform.io/features/).  
 
 #### Managing Submissions
 To view, download or take other actions related to form submissions, go to the Results tab of a form.
@@ -802,8 +802,8 @@ Taxonomies are also used to manage who can edit certain content on the site. The
 
 To manage taxonomies, go to Structure > Taxonomy
 
-> **TIP** 
-> If you want change the name of a term that is already used to categorize content, edit the term rather than delete and add a new term. This way you don’t have to retag the content with the updated term name.
+##### TIP 
+* If you want change the name of a term that is already used to categorize content, edit the term rather than delete and add a new term. This way you don’t have to retag the content with the updated term name.
 
 ---  
 
@@ -825,9 +825,9 @@ To manage Workbench, go to Configuration > Workflow
 The [Workbench] (https://www.drupal.org/node/2121239) module manages publishing workflows and revisions. 
 
 Workbench can be configured to suit North Central’s editorial needs. Some examples:
-> When an admin creates a new page they can save and publish it immediately
-> When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it 
-> When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft
+* When an admin creates a new page they can save and publish it immediately
+* When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it 
+* When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft
 
 To configure Workbench settings, go to Configuration > Workflow
 
