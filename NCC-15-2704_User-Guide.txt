@@ -203,7 +203,7 @@ Includes a title, subtitle, area for text, and spot for media (image, video or g
 
 ![Teasers Block](assets/teaser_block.png)
 ##### Teasers Block
-Allows for up to 4 blocks that each include a title, short description, image and image. Use it to summarize a topic and lead users to more information with the CTA. 
+Allows for up to 4 blocks that each include a title, short description, image and CTA. Use it to summarize a topic and lead users to more information with the CTA. 
 
 ---   
 #### Calls to Action / CTAs
