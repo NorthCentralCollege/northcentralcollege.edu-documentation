@@ -60,7 +60,7 @@ For example, the elements of an article include a title, an image, a subtitle an
 North Central’s site includes custom content types like program created for the College’s academic degrees.
   
 > **TIP**  
-> To see all content types that you have access to create, go to Content > Add Content
+> To see all content types that you have access to create, go to Workbench > Create Content
 
 ---   
 
