@@ -563,15 +563,12 @@ Members of North Central College’s faculty and staff have profiles on the webs
 
 2. On the top of the screen you’ll see your username. Click it, then click Edit profile.
 
-*All members of the North Central community with profiles:*
-
 3. Click on Main Profile. This is where you can enter or modify items such as your contact information and a short biography.
 
 4. After you’ve made your entries or edits, go to the bottom of the screen and click Save.
 
-*Faculty members:*
-5. In addition to your main profile, there is academic-related information (e.g. areas of interests) that you can provide/edit. To do so, go to Faculty Profile.
-6. Enter or edit your information and click Save.
+##### Faculty Members
+In addition to your main profile, there is academic-related information (e.g. areas of interests) that you can provide/edit. To do so, go to Faculty Profile, enter or edit your information and click Save.
 
 ---   
 
