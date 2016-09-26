@@ -256,7 +256,7 @@ The table component is for adding tabular data to a page. Please note that the t
 ##### How to Add a Table
 It’s a good idea to put your table in context with a title and any explanatory copy that will help users understand it. You can do that with the rich text component or an intro teaser. Once you have added that text with the rich text or intro teaser:
 
-1. Choose Table from the dropdown for the Add to Section.
+1. Choose Table from the dropdown for Add to Section.
 2. Enter the number of rows and columns you’ll need. You can adjust this if you need to.
 3. Enter the data into the table.
 
