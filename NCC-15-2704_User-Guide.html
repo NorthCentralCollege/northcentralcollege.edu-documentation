@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>NCC-15-2704_User-Guide</title>
+
+	<meta charset="utf-8"/>
+  <style type="text/css">
+html {
+    /* the line height value of 1.9 is fixed for a line height multiple of 1.4 in the text view */
+    font: normal 106.2%/1.9 serif;
+}
+
+body {
+    font-family: '.SF NS Text', Helvetica, Georgia, serif;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    overflow:hidden;
+    background-color: #f2f2f2;
+    color: #3c3c3c;
+}
+
+/**
+ *
+    Wrappers
+ *
+ */
+
+#wrapper {
+    position: fixed;
+    width: 99.9%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 1.0em;
+}
+
+#wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+    -webkit-transition: all .45s ease-in;
+    position: relative;
+}
+#wrapper::-webkit-scrollbar-button:start:decrement, #wrapper::-webkit-scrollbar-button:end:increment {
+    height: 0px;
+    display: block;
+    background-color: transparent;
+}
+#wrapper::-webkit-scrollbar-track-piece {
+    background-color:
+    transparent;
+    -webkit-border-radius: 6px;
+}
+#wrapper::-webkit-scrollbar-thumb:vertical {
+    height: 50px;
+    background-color: #c8c8c8;
+    -webkit-border-radius: 6px;
+    -webkit-transition: all .45s ease-in;
+}
+
+#content {
+    width: 610px;
+    margin: 0 auto 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+/**
+ *
+    Headings
+ *
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin: 0.5rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizeLegibility;
+    line-height: 1;
+    margin: 0.5rem 0;
+}
+
+h1, 
+h2, 
+h3 { margin-bottom: 1rem; }
+
+h1 { font-size: 2.75rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.00rem; }
+h6 { font-size: 0.85rem; }
+
+/**
+ *
+	Paragraphs
+ *
+ */
+
+p {
+	margin: 0 0 1.5em;
+}
+
+/**
+ *
+    Block quotes
+ *
+ */
+
+blockquote {
+    margin: 0 0 1.5em;
+    width: 96%;
+    padding: 0 10px;
+    border-left: 3px solid #ddd;
+    color: #777;
+}
+
+/**
+ *
+	Code Blocks
+ *
+ */
+
+pre code {
+	word-wrap: normal;
+	white-space: pre-wrap;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    -webkit-border-radius: 0;
+}
+
+pre {
+	white-space: pre-wrap;
+    width: 96%;
+    margin-bottom: 24px;
+    overflow: hidden;
+    padding: 3px 10px;
+    -webkit-border-radius: 3px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+code {
+	white-space: nowrap;
+	font-family: monospace;
+    padding: 2px;
+    -webkit-border-radius: 3px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+}
+
+small {
+	font-size: 65%;
+}
+
+/**
+ *
+    Dictionary Definition
+ *
+ */
+
+dt {
+	display: inline;
+    font-weight:bold;
+}
+
+dd {
+	display: block;
+}
+
+/**
+ *
+    Anchors
+ *
+ */
+
+a {
+    color: #308bd8;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/**
+ *
+    Horizontal rules
+ *
+ */
+
+hr {
+    width: 100%;
+    margin: 3em auto;
+    border: 0;
+    color: #eee;
+    background-color: #ccc;
+    height: 1px;
+    -webkit-box-shadow:0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+/**
+ *
+    Lists
+ *
+ */
+
+ol, ul {
+    list-style-position: outside;
+    padding-left: 0;
+    margin-left: 1.5em;
+}
+
+ol li, ul li {
+    text-align: -webkit-match-parent;
+}
+
+li p {
+    margin: 0.5em 0 0.5em;
+}
+
+ol ol, ol ul, ul ul, ul ol {
+    padding-left: 1.5em;
+}
+
+/**
+ *
+    Tables
+ *
+ */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-spacing: 0;
+}
+
+table th {
+    padding: 3px 10px;
+    background-color: #eee;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+table tr {
+}
+
+table td {
+    padding: 3px 10px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+/**
+ *
+    Images
+ *
+ */
+
+img {
+    border: none;
+    display: block;
+    margin: 1em auto;
+    max-width: 100%;
+}
+
+/**
+ *
+    Marks
+ *
+ */
+
+mark {
+    background: #fefec0;
+    padding:1px 3px;
+}
+
+/**
+ *
+    Footnotes
+ *
+ */
+.footnote {
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+.footnotes ol {
+    font-weight: bold;
+}
+.footnotes ol li {
+    text-align: -webkit-match-parent;
+}
+
+.footnotes ol li p {
+    font-weight: normal;
+}
+
+/**
+ *
+    Figures and Captions
+ *
+ */
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+figure {
+    display: block;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+/**
+ *
+    Custom classes
+ *
+ */
+
+.shadow {
+    -webkit-box-shadow: 0 2px 4px #999;
+}
+
+.source {
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    margin: -40px auto;
+}
+#wrapper {
+    width: 99.9%;
+}
+#content {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile support */
+@media only screen and (max-device-width:1024px) {
+    html {
+        overflow: auto;
+    }
+
+    #wrapper {
+        overflow: auto;
+        position: relative;
+    }
+}@media print {
+/* Printing support.
+ * Override all printing colors to match the Light theme.
+ */
+img, pre, blockquote, table, figure {
+    page-break-inside: avoid;
+}
+body {
+    background-color:#fff;
+}
+#wrapper {
+    position: static;
+    overflow: hidden;
+    color: #000;
+    width: 100%;
+    margin: 0 auto;
+}
+.footnotes {
+    page-break-before: always;
+}
+#content {
+    margin: 0 auto;
+    padding: 0;
+    width: 98%;
+}
+#top-fader, #bottom-fader {
+    display: none;
+}
+hr {
+    color:#ddd;
+    background-color:#ddd;
+    -webkit-box-shadow:0px 1px 0px #ddd;
+}
+pre {
+    background-color:transparent;
+    border: 1px solid #ddd;
+}
+code {
+    background-color:transparent;
+    border: 1px solid #ddd;
+}
+blockquote {
+    border-left: 3px solid #ddd;
+    color: #000;
+}
+ol {
+    /*
+     * Override the list style when printing to ensure list
+     * markers won't get cut.
+     */
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+table {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+table th {
+    background-color:transparent;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+table td {
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+mark {
+    background:transparent;
+    color: #000;
+}
+.source {
+    color: #000;
+}
+}
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="content">
+<h1>North Central College Website User Guide</h1>
+
+<hr />
+
+<ul>
+<li><a href="#section-whatisdrupal">What is Drupal? CMS Essentials</a></li>
+<li><a href="#section-components">Components: The Site&#8217;s Visual Building Blocks</a></li>
+<li><a href="#section-imagespecs">Image Specifications</a></li>
+<li><a href="#section-wordounts">Word Counts</a></li>
+<li><a href="#section-login">Logging Into the Site</a></li>
+<li><a href="#section-createandedit">Creating and Editing Content</a></li>
+<li><a href="#section-pages">Pages</a></li>
+<li><a href="#section-programs">Programs</a></li>
+<li><a href="#section-profile">Your Profile</a></li>
+<li><a href="#section-article">Articles</a></li>
+<li><a href="#section-events">Events</a></li>
+<li><a href="#section-webforms">Webforms</a></li>
+<li><a href="#section-departments">Departments</a></li>
+<li><a href="#section-videosandgalleries">Videos and Galleries</a></li>
+<li><a href="#section-documents">PDFs and Documents</a></li>
+<li><a href="#section-links">Links</a></li>
+<li><a href="#section-advancedtopics">Advanced Topics</a></li>
+<li><a href="#section-alerts">Alerts</a></li>
+<li><a href="#section-eventregistration">Events with Registration</a></li>
+<li><a href="#section-managingmenus">Managing Menus</a></li>
+<li><a href="#section-buildingwebforms">Webforms: Building and Managing</a></li>
+<li><a href="#section-eventmanagement">Event Management</a></li>
+<li><a href="#section-taxonomies">Taxonomies</a></li>
+<li><a href="#section-editorialaccess">Editorial Access and Workflows</a></li>
+<li><a href="#section-rolesandpermissions">Roles and Permissions</a></li>
+<li><a href="#section-metatags">Meta Tags/SEO</a></li>
+<li><a href="#section-managingfiles">Managing Images and Files</a></li>
+<li><a href="#section-glossary">Glossary</a></li>
+<li><a href="#section-contact">Contact: Feedback and Requests</a></li>
+</ul>
+
+<hr />
+
+<h2 id="section-whatisdrupal">What is Drupal? CMS Essentials</h2>
+
+<p>North Central College’s website is built with a content management system – or CMS – called Drupal.</p>
+
+<p>CMSs like Drupal make it possible for people without technical skills to create and edit pages, news articles, events and other content.</p>
+
+<p>If you’ve edited pages on North Central’s old site or used blogging platforms like Wordpress, you’ve used a CMS before. In fact, North Central’s previous site was built with an earlier version of Drupal.</p>
+
+<p>Drupal is an open source product. A strong, dedicated community of developers from around the world contributes the code that makes Drupal run. There’s no cost to use it, and it is the platform of choice for organizations ranging from The Economist to The City of Austin to Cisco to other colleges and universities. </p>
+
+<hr />
+
+<h3>Key Concepts</h3>
+
+<hr />
+
+<h4>Content Types</h4>
+
+<p>Often, when we’re on websites, everything seems like it’s just a page. But in Drupal, there are many different things that create a site. They’re called “content types.”</p>
+
+<p>Content types are like containers that hold elements together.</p>
+
+<p>For example, the elements of an article include a title, an image, a subtitle and body copy.</p>
+
+<p><img src="assets/content_type.png" alt="Content Types" />
+North Central’s site includes custom content types like program created for the College’s academic degrees.</p>
+
+<blockquote>
+<p><strong>TIP</strong><br/>
+To see all content types that you have access to create, go to Content &gt; Add Content</p>
+</blockquote>
+
+<hr />
+
+<h4>Nodes</h4>
+
+<p>Every piece of content on the site (a page, a video, a program, etc.) is called a node. When you’re editing the site, you’ll see the unique node ID in the browser’s URL bar. Something like this:</p>
+
+<blockquote>
+<p><em>http://northcentralcollege.edu/node/116/edit</em></p>
+</blockquote>
+
+<p>Site visitors never see this unique ID. Instead, they see standard URLs like:</p>
+
+<blockquote>
+<p><em>http://northcentralcollege.edu/how-to-apply</em> </p>
+</blockquote>
+
+<hr />
+
+<h4>Templates</h4>
+
+<p>Templates pull all the elements of a content type into a visual look. They’re what visitors see when they come to the site. North Central templates are designed to be highly flexible. </p>
+
+<hr />
+
+<h2 id="section-components">Components: The Site&#8217;s Visual Building Blocks</h2>
+
+<p>Components are the visual building blocks of the site’s templates. When you create content (e.g. page, program), you are given a variety of components to use. The available components and the way you can arrange them have been carefully thought out to balance flexibility with visual consistency across the site.</p>
+
+<p>The site uses the components listed below most frequently. They are the most important to be familiar with, especially if you manage pages: </p>
+
+<hr />
+
+<h4>Cards</h4>
+
+<p><img src="assets/cards.png" alt="Sample of Card Types" />
+Cards are interactive blocks that highlight key pieces of information. For example, a profile card features a person’s name, title and their photo. Most cards are intended to guide users to additional information or to take an action. When a user clicks on an event card, for instance, it will take them to the full details of the event. </p>
+
+<p><img src="assets/card_cta.png" alt="Call to Action Card" /></p>
+
+<h5>Call to Action</h5>
+
+<p>Draw attention and guide users to other content with this card. Text on a call-to-action card should include descriptive or “marketing-style” language rather than just the name of where clicking the card will take the user.</p>
+
+<p><img src="assets/card_cta_photo.png" alt="Call to Action Card with Image" /></p>
+
+<h5>Call to Action with Image</h5>
+
+<p>Similar to the call-to-action card but includes an image.</p>
+
+<p><img src="assets/card_career.png" alt="Career Card" /></p>
+
+<h5>Career</h5>
+
+<p>Use within the program content type to feature a profession that graduates of that program might enter. Include a short description or interesting fact.</p>
+
+<p><img src="assets/card_event.png" alt="Event Card" /></p>
+
+<h5>Event</h5>
+
+<p>These are auto-generated by the site to show the basic details of an event. </p>
+
+<p><img src="assets/card_factoid.png" alt="Factoid Card" /></p>
+
+<h5>Factoid</h5>
+
+<p>Use this card to highlight a key fact about the College, a program or another topic relevant to where you’re placing the factoid card.</p>
+
+<p><img src="assets/card_feature.png" alt="Feature Card" /></p>
+
+<h5>Feature</h5>
+
+<p>Use the feature card to promote a story or article with “evergreen” appeal. Examples are stories about an alum or a student that aren’t time-sensitive.</p>
+
+<p><img src="assets/card_gallery.png" alt="Gallery Card" /></p>
+
+<h5>Gallery</h5>
+
+<p>Opens a gallery of photos. </p>
+
+<p><img src="assets/card_article.png" alt="Article Card" /></p>
+
+<h5>News/Article</h5>
+
+<p>These are auto-generated by the site to show the basic details of a news article.</p>
+
+<p><img src="assets/card_image.png" alt="Image Card" /></p>
+
+<h5>Image</h5>
+
+<p>Image cards are good for giving visual relief to stacks with several text-based cards. They feature an image and do not link anywhere.</p>
+
+<p><img src="assets/card_program.png" alt="Program Card" /></p>
+
+<h5>Program</h5>
+
+<p>These are mostly auto-generated in places like the program finder to provide a short description of an academic or experiential program that appeals to prospective students.</p>
+
+<p><img src="assets/card_quote.png" alt="Quotes Card" /></p>
+
+<h5>Quote</h5>
+
+<p>A brief quote by a student, professor, or other College community member.</p>
+
+<p><img src="assets/card_title.png" alt="Title Card" /></p>
+
+<h5>Title</h5>
+
+<p>A brief, catchy statement or interesting sentence, similar to a headline or pull quote meant to draw user’s attention but not lead them to click through to other content. The title card doesn’t include a link.</p>
+
+<p><img src="assets/card_video.png" alt="Video Card" /></p>
+
+<h5>Video</h5>
+
+<p>Use this to embed a video in a stack.</p>
+
+<hr />
+
+<h4>Stacks</h4>
+
+<p><img src="assets/stacks.png" alt="Sample of Card Types" />
+Stacks are groupings of cards that open and close as a user interacts with them. If a user is on a desktop computer, for example, the stack will animate when the user clicks a card in the stack. If they are on a smartphone or tablet the stack will animate when they touch a card. </p>
+
+<p>There are several types of stacks. For example, group, program and highlight. Each includes different types of cards. We’ve selected which stack types to use on each content type. All you need to do is choose places where you want to use stacks and the cards and content that will be included.</p>
+
+<blockquote>
+<p><strong>TIPS</strong><br/>
+If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
+Use a variety of card types when creating a stack.<br/>
+By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.</p>
+</blockquote>
+
+<hr />
+
+<h4>Teasers</h4>
+
+<p><img src="assets/teasers.png" alt="Sampling of Teasers" />
+Teasers are groupings of design elements that typically include an image or video, title, subtitle and text. Some also include a call-to-action button. </p>
+
+<p>There are several types of teasers and you can use them in a variety of combinations. For example, a feature teaser above 4 teaser blocks.</p>
+
+<blockquote>
+<p><strong>TIP</strong>
+Use teasers to organize page content into easy to scan areas rather than walls of text. </p>
+</blockquote>
+
+<p><img src="assets/teaser_intro.png" alt="Intro Teaser" /></p>
+
+<h5>Intro Teaser</h5>
+
+<p>Includes a title, subtitle, and area for intro text. CTA buttons can be included as well. Use for introducing a page or section on a page. Combines well with the rich text component.</p>
+
+<p><img src="assets/teaser_feature2.png" alt="Feature Teaser" /></p>
+
+<h5>Feature Teaser</h5>
+
+<p>Includes a title, subtitle, area for text, and spot for media (image, video or gallery). CTA buttons can be included as well. Works well as a stand-alone feature on a page to highlight a topic with media.</p>
+
+<p><img src="assets/teaser_block.png" alt="Teasers Block" /></p>
+
+<h5>Teasers Block</h5>
+
+<p>Allows for up to 4 blocks that each include a title, short description, image and image. Use it to summarize a topic and lead users to more information with the CTA. </p>
+
+<hr />
+
+<h4>Calls to Action / CTAs</h4>
+
+<p>Call-to-actions are available throughout the site in a similar way as buttons on the current North Central site.</p>
+
+<p>There are two types:</p>
+
+<blockquote>
+<p>CTA buttons on headers and teasers
+CTA cards</p>
+
+<p><strong>TIPS</strong>
+Use CTAs for the most important thing you want users to do next or learn more about.
+CTAs should guide users to tasks or information in context of the content they appear. For example, on a program page Apply would be a likely action users would want to take.
+Do not overuse CTAs on a page or other content. If there are too many, they won&#8217;t do their job of standing out.</p>
+</blockquote>
+
+<hr />
+
+<h4>Rich Text</h4>
+
+<p><img src="assets/rich_text_front.png" alt="Rich Text" />
+Rich text is useful when you need to present longer passages of text. It could also be described as “body copy.” The rich text component allows formatting such as heading styles to give your text hierarchy, making it easier for readers to follow. Bulleted lists, italics and bolding are also available. You can also create links to other pages (a.k.a. crosslinks), external sites or documents like PDFs uploaded to a page.</p>
+
+<blockquote>
+<p><strong>TIPS</strong>
+Use heading styles to structure your text. See below for reasons why and how to.
+Be purposeful in using formatting tools such as bold and italics. They should add meaning rather than decoration.</p>
+</blockquote>
+
+<h5>Heading Styles</h5>
+
+<p><img src="assets/rich_text_header.png" alt="annotated image of page with heading styles" />
+When entering content into the rich text component you need to use heading styles to format headings and subheadings for sections and paragraphs. Heading styles adjust the font of headings and subheadings automatically so they are consistent throughout the site. </p>
+
+<p>IMPORTANT: Do not use bold for headings and subheadings. Only use bold for emphasizing words or phrases in a sentence.</p>
+
+<p>Headings are necessary because they: </p>
+
+<blockquote>
+<p>Give hierarchical structure and order to your information, making it more useful to users.
+Are essential for accessibility; visitors using a screen reader need headings to understand the order of information.
+Are important for SEO (search engine optimization). </p>
+</blockquote>
+
+<h5>How to Add Headings</h5>
+
+<ol>
+<li>Highlight the text you want to make a heading.</li>
+<li>Click the Format button and select the heading style you want to use. Note: The title of the page is a Heading 1 so you will want to use a Heading 2, 3 or 4 depending on if there is an intro teaser or other heading in another component already on the page. Be consistent with your heading styles across pages in a section of the site or tabs on content types like programs and departments.</li>
+</ol>
+
+<hr />
+
+<h4>Tables</h4>
+
+<p><img src="assets/table.png" alt="table example" />
+The table component is for adding tabular data to a page. Please note that the table should only be used for numerical-type information and not for organizing paragraphs. In other words, use tables for structured information that is primarily numbers; do not use it for primarily prose that could be presented with normal text.</p>
+
+<blockquote>
+<p><strong>EXAMPLES</strong>
+Do: use a table to show the tuition for degree programs for the upcoming academic year.
+Don’t: use tables to list descriptions of different types of programs or organizations. </p>
+</blockquote>
+
+<h5>How to Add a Table</h5>
+
+<p>It’s a good idea to put your table in context with a title and any explanatory copy that will help users understand it. You can do that with the rich text component or an intro teaser. Once you have added that text with the rich text or intro teaser:</p>
+
+<ol>
+<li>Choose Table from the dropdown for the Add to Section.</li>
+<li>Enter the number of rows and columns you’ll need. You can adjust this if you need to.</li>
+<li>Enter the data into the table.</li>
+</ol>
+
+<blockquote>
+<p><strong>TIPS</strong>
+Use the rich text component (or an intro teaser) for any explanatory copy related to the table.
+If you use column headers, make sure to have them on each column so the table displays properly on mobile.
+Don&#8217;t use footnotes in the table or descriptive copy about the data. That info should be in the rich text or other component.</p>
+</blockquote>
+
+<hr />
+
+<h4>Billboards</h4>
+
+<p>Billboards are built into the top area of certain content types, such as pages and events. So unlike other components, you won’t need to add billboards manually. Billboards typically display a header image, page title and call-to-action buttons. </p>
+
+<figure>
+<img src="assets/billboard_general.png" alt="General Billboard" />
+<figcaption>General Billboard</figcaption>
+</figure>
+
+<figure>
+<img src="assets/billboard_media.png" alt="Media Billboard" />
+<figcaption>Media Billboard</figcaption>
+</figure>
+
+<hr />
+
+<h4>Slider</h4>
+
+<p>The slider component is reserved for the homepage and subsite templates. You can use it to create “slides” of featured news and other content.
+<img src="assets/slider.png" alt="Slider" /></p>
+
+<blockquote>
+<p><strong>TIP</strong>
+To increase the chance that a user will see a particular piece of content, put it as the first slide. Not all users will scroll through the slides, so important information should not be placed in slides 2, 3, etc.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="section-imagespecs">Image Specifications</h2>
+
+<hr />
+
+<p>Minimal preparation is required when uploading images. For example, cropping is not necessary. </p>
+
+<p>The site will automatically crop the image to fit the design and the screen size the user is visiting the site on. To ensure that auto cropping doesn’t cut off an important part of an image, you can select a focal point when uploading the image. The focal point won’t be cut off it an image needs to be cropped for viewing on smaller screens.</p>
+
+<figure>
+<img src="assets/focal_point.png" alt="Image thumbnail with focal point (white crosshair)." />
+<figcaption>Image thumbnail with focal point (white crosshair).</figcaption>
+</figure>
+
+<p>While you do not need to crop images before uploading, you should follow these size and aspect ratio guides. </p>
+
+<hr />
+
+<h4>Header Image &amp; Slider</h4>
+
+<p>Header images are part of the billboard component. They appear at the top of certain content types. The slider is used on the homepage and subsites only. </p>
+
+<p><em>Recommended Image Size:</em> <strong>3840 px x 2160 px</strong><br/>
+<em>Recommended Image Ratio:</em> <strong>16:9</strong><br/>
+<img src="assets/billboard_general.png" alt="General Billboard" title="General Billboard" /> </p>
+
+<hr />
+
+<h4>Image Cards</h4>
+
+<p>These specifications cover image use in all cards that require a background image. Please note that the styles shown depict best case assets and it’s recommended to follow these when making your image selections. </p>
+
+<p><em>Recommended Image Size:</em> <strong>1800 px x 1000 px</strong><br/>
+<em>Recommended Image Ratio:</em> <strong>16:9</strong> </p>
+
+<figure>
+<img src="assets/cards.png" alt="(From left to right, top to bottom) Call to Action, Profile, Feature, Story, Image, Gallery and Video Cards" title="(From left to right, top to bottom) Call to Action, Profile, Feature, Story, Image, Gallery and Video Cards" />
+<figcaption>(From left to right, top to bottom) Call to Action, Profile, Feature, Story, Image, Gallery and Video Cards</figcaption>
+</figure>
+
+<hr />
+
+<h4>Graphic Cards</h4>
+
+<p>Graphic cards are cards that include icons/graphics, e.g. Call to Action and Factoid. Graphics can be any width and will be automatically sized to fit but a general height of around 300px is best. </p>
+
+<p><em>Recommended Image Size:</em> <strong>any px x 600 px</strong></p>
+
+<figure>
+<img src="assets/cards_graphic.png" alt="Call to Action and Factoid Card" title="Call to Action and Factoid Cards" />
+<figcaption>Call to Action and Factoid Card</figcaption>
+</figure>
+
+<hr />
+
+<h4>Teasers</h4>
+
+<p>These are the specs for all teaser types: feature, intro, blocks.</p>
+
+<p><em>Recommended Image Size:</em> <strong>1800 px x 1000 px</strong><br/>
+<em>Recommended Image Ratio:</em> <strong>16:9</strong> </p>
+
+<figure>
+<img src="assets/teaser_smart.png" alt="Smart teaser with three blocks." title="Smart teaser with three blocks." />
+<figcaption>Smart teaser with three blocks.</figcaption>
+</figure>
+
+<figure>
+<img src="assets/teaser_feature.png" alt="Feature Teaser" title="Feature Teaser" />
+<figcaption>Feature Teaser</figcaption>
+</figure>
+
+<hr />
+
+<h4>General Images</h4>
+
+<p>When using an image on its own (i.e. not in a teaser or card) on a page or other content type, follow these specifications. Note that images can be entered as full-width, full-width with parallax effect or content width. </p>
+
+<p><em>Recommended Image Size:</em> <strong>3840 px x 2160 px</strong><br/>
+<em>Recommended Image Ratio:</em> <strong>16:9</strong> </p>
+
+<figure>
+<img src="assets/images.png" alt="Full-width and content-width images." title="Full-width and content-width images." />
+<figcaption>Full-width and content-width images.</figcaption>
+</figure>
+
+<h5>About Parallax Effect</h5>
+
+<p>With parallax, images are arranged in the background, with section content overlaying it so content moves on top of the image as the user scrolls. To use this effect, set layout to “full” when adding your image.</p>
+
+<hr />
+
+<h2 id="section-wordounts">Word Counts</h2>
+
+<p>Most components have a recommended word count to ensure that text fits properly. </p>
+
+<hr />
+
+<h3>Cards</h3>
+
+<hr />
+
+<h4>Call to Action</h4>
+
+<p>Max: 12 words</p>
+
+<h4>Call to Action with Image</h4>
+
+<p>Max: 15 words</p>
+
+<h4>Career</h4>
+
+<p>Max: 20 words</p>
+
+<h4>Event</h4>
+
+<p>Max: 15 words</p>
+
+<h4>Factoid</h4>
+
+<p>Max: 15 words</p>
+
+<h4>Feature</h4>
+
+<p>Max: 12 words</p>
+
+<h4>News/Article</h4>
+
+<p>Max: 12 words</p>
+
+<h4>Program</h4>
+
+<p>Max: 15 words</p>
+
+<h4>Quote</h4>
+
+<p>Max: 140 characters</p>
+
+<h4>Title</h4>
+
+<p>Max: 12 words</p>
+
+<hr />
+
+<h3>Teasers</h3>
+
+<hr />
+
+<h4>Feature Teaser</h4>
+
+<p>Title: 5 - 10 words
+Subhead: 10 - 15 words
+Text: 20 - 30 words</p>
+
+<h4>Teaser Blocks</h4>
+
+<h5>3 Blocks</h5>
+
+<p>Title: 5 - 10 words
+Text: 15 - 20 words</p>
+
+<h5>4 Blocks</h5>
+
+<p>Title: 8 - 10 words
+Text: 15 - 20 words</p>
+
+<h5>2 Blocks</h5>
+
+<p>Title: 10 - 15 words
+Text: 15 - 20 words</p>
+
+<hr />
+
+<h3>Rich Text / Body Copy</h3>
+
+<p>There isn’t a limit to the number of words you can use for rich text or other text that would be considered “body copy” for things like bios, articles, etc.</p>
+
+<p>However, keep in mind that online readers scan more than read. This means that breaking text into chunks with headings will greatly help your audience find relevant information. Also, keep sentences short (20 to 25 words) and don’t be afraid to use single-sentence paragraphs. Newspapers are filled with them.</p>
+
+<hr />
+
+<h2 id="section-login">Logging Into the Site</h2>
+
+<p>To manage content, including your profile, go to http://northcentralcollege.edu/user and log in with your North Central network account. This is the same username and password you use for your email, e.g., username@noctrl.edu.</p>
+
+<hr />
+
+<h2 id="section-createandedit">Creating and Editing Content</h2>
+
+<p>The types of content and specific pages you have access to create and edit on the site is determined by things like your role — staff or faculty, for example — and how much writing and editing for the site is part of your job responsibilities. </p>
+
+<h3>Workbench</h3>
+
+<p>If you have access to edit or create content on the site you will see an area called Workbench when you log in. This is where you will go to do any content-related activities on the site. For example, find content you created and want to edit or create new content.</p>
+
+<p>The Workbench menu contains different items depending on a person’s role. For example, members of the marketing department will see different items than other departments.</p>
+
+<h3>Review and Publishing</h3>
+
+<p>There is an editorial review process that determines which content can be published immediately when you create or edit it, and which content that the Office of Marketing and Communications will review and either publish or return for edits. In the saving options, if you see the option to Save and Publish, your content will be published without review.</p>
+
+<h3>Content Requests and Guidance</h3>
+
+<p><a href="https://cardinalnet.northcentralcollege.edu/misc/website-management">Submit a ticket</a> if you need assistance editing or creating content or have other content-related comments or issues.</p>
+
+<hr />
+
+<h3 id="section-generalsteps">How To Create or Edit Any Content Type</h3>
+
+<p>Below is a simple overview of how to create and edit content. The sections that follow in this guide contain more detailed instructions and tips for specific content types.</p>
+
+<hr />
+
+<blockquote>
+<p><strong>TIP</strong>
+Creating and editing content is similar to completing a form. What appears to site visitors on a page, for example, are the fields you fill out.</p>
+</blockquote>
+
+<hr />
+
+<h4>Create Content</h4>
+
+<ol>
+<li><p>After logging into the site, go to My Workbench &gt; Create Content </p></li>
+<li><p>Select the type of content you want to create.</p></li>
+<li><p>Complete the form.
+ <img src="assets/content_menu.png" alt="Content Menu" /></p>
+
+<blockquote>
+<p><strong>TIP</strong>
+Most content types have tabs that correspond to the different parts of the content. For example, the header is the top of a page and includes the image and call-to-action buttons. Make sure to click on each tab to ensure that you are including the necessary information.</p>
+</blockquote></li>
+<li><p>Find the Save button at the bottom of the screen and select the desired save option. </p></li>
+</ol>
+
+<blockquote>
+<p><strong>NOTE</strong>
+Depending on your editing permissions on the site, you will see different save options. For example, you may be able to publish immediately, or your content will be sent to an editor for review. </p>
+</blockquote>
+
+<h4>Edit Content</h4>
+
+<ol>
+<li>After logging into the site, go to the page, program, event, etc. that you want to edit.</li>
+<li>Depending on your editing access and the type of content it is, you will see options for Edit Draft or New Draft. Click one of those.</li>
+<li>Update the text, images or other information as needed.</li>
+<li>Find the Save button at the bottom of the screen and select the desired save option.</li>
+</ol>
+
+<blockquote>
+<p><strong>NOTE</strong>
+Depending on your editing permissions on the site and the type of content you are editing your changes might be reviewed by an editor or published immediately. </p>
+</blockquote>
+
+<hr />
+
+<h4 id="section-pages">Pages</h4>
+
+<p>Pages are the most common content type on the site. Follow these <a href="#section-generalsteps">general steps</a> to create or edit a page. Keep these instructions and tips in mind:</p>
+
+<h5>Adding Page Content</h5>
+
+<p><img src="assets/content_page.png" alt="Content tab of page content type" />
+1. Go to the content tab on a page you want to edit. You will see an option to add content to a section. Add content by selecting the component that will best feature the content you want to include. For example, if it’s a combination of an image, heading title and short amount of text, you should select one of the teaser options.
+2. From the dropdown list, select the component you want to add.
+3. Enter your content into the fields.
+4. Save your additions or continue to add components and then save.</p>
+
+<p><a href="#section-components">More about components</a> </p>
+
+<blockquote>
+<p><strong>TIPS</strong>
+You can add as many or as few components as needed to accommodate the content you want to present to site visitors. Keep in mind that the information, images, etc. on the page shouldn’t feel too sparse or too dense.
+To reorder components, use the crosshair symbol to drag and drop.
+When writing text for call-to-action buttons or links, use descriptive, active words that make it clear where users will go when they click/touch it. For example, “explore majors” rather than “click here.”</p>
+</blockquote>
+
+<h5>Editing Page Content</h5>
+
+<ol>
+<li>Go to the content tab of the page you want to edit.</li>
+<li>Find the component you want to edit and select Edit.</li>
+<li>Make your changes.</li>
+<li>Scroll to the bottom of the page and save your changes.</li>
+</ol>
+
+<h5>Adding a Page to a Menu</h5>
+
+<p><img src="assets/menu_settings.png" alt="Menu Settings" />
+1. Open the menu settings box. If you are on a desktop computer, it should be on the right side of your screen.
+2. Tick the box that says “Provide a menu link”
+3. Enter a menu title. This is what will appear in a menu. It should be short (no more than 3 words) and clear.
+4. Under Parent item, select the section the page should appear under.
+5. Save the page.</p>
+
+<blockquote>
+<p><strong>TIPS</strong>
+To ensure clear menu titles, avoid acronyms or other insider terms.
+To move an item in a menu, refer to <a href="#section-reorder">these instructions.</a> </p>
+</blockquote>
+
+<hr />
+
+<h4 id="section-programs">Programs</h4>
+
+<p>The program content type is primarily intended for presenting academic majors and minors and graduate programs to prospective students. It’s also used to provide information about experiential learning opportunities and other academic- or career-focused programming offered by North Central College.</p>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to create or edit a program. Keep these instructions and tips in mind:</p>
+
+<h5>Adding Program Content</h5>
+
+<p><img src="assets/program_overview.png" alt="Program overview tab edit view and front end." />
+The main content for programs is organized by tabs. By default, every program has an overview tab that should provide a synopsis of the program in a compelling manner.</p>
+
+<p>To add a program overview:</p>
+
+<ol>
+<li>Go to the Tab section and enter the overview content. In addition to text, you can include a highlight stack featuring student profiles, quotes and other content.</li>
+<li>Save your additions or continue to build the program by adding tabs and then save.</li>
+</ol>
+
+<p>To create a tab:
+1. Go to the Tab section and select Add Tab Section.
+2. Select an icon that matches the topic of the tab and provide a tab title.
+3. To add text to the tab or other content, select the dropdown list under Content and select the component you want to add.
+4. Save your additions or continue to build the program by adding tabs and then save.
+<img src="assets/program_bio.png" alt="Program Sample" /></p>
+
+<blockquote>
+<p><strong>TIPS</strong>
+Your program will automatically be added to the program finder where site visitors can browse all North Central Programs.
+To add curriculum information, use the Program Acalog component. </p>
+</blockquote>
+
+<h5>Editing Program Content</h5>
+
+<ol>
+<li>Select the section of the program you want to edit, e.g., content in a tab, contact, categorization.</li>
+<li>Make and save your changes.</li>
+</ol>
+
+<h5>Categorization</h5>
+
+<p>The categorization section of a program is where you enter details about the program that are used in such things as the program finder where visitors browse majors and minors, graduate programs, etc.</p>
+
+<hr />
+
+<h4 id="section-profile">Your Profile</h4>
+
+<p><img src="assets/profile.png" alt="Username on CMS menu bar." />
+Members of North Central College’s faculty and staff have profiles on the website. Follow these steps to manage yours:</p>
+
+<ol>
+<li><p>Go to http://northcentralcollege.edu/user and log into the site using your North Central network account. This is the same username and password you use for your email, e.g., username@noctrl.edu.</p></li>
+<li><p>On the top of the screen you’ll see your username. Click it, then click Edit profile.</p></li>
+</ol>
+
+<p><em>All members of the North Central community with profiles:</em>
+3. Click on Main Profile. This is where you can enter or modify items such as your contact information and a short biography.</p>
+
+<ol>
+<li>After you’ve made your entries or edits, go to the bottom of the screen and click Save.</li>
+</ol>
+
+<p><em>Faculty members:</em>
+5. In addition to your main profile, there is academic-related information (e.g. areas of interests) that you can provide/edit. To do so, go to Faculty Profile.
+6. Enter or edit your information and click Save.</p>
+
+<hr />
+
+<h4 id="section-article">Articles, Press Releases, Press Mentions, Stories</h4>
+
+<p>With the article content type you can create a traditional news-style article, a press release or a press mention. There is also an option to create a story. Stories are less time-sensitive, or “evergreen” content. Examples include a feature profile of a member of the North Central community.</p>
+
+<h5>North Central Faculty and Staff</h5>
+
+<p>The new site’s article feature is essentially replacing the current Pride news area. You are encouraged to use the new site to create news articles about your department, major, students, etc. Examples include awards, achievements, notable publications or other scholarly activities, etc.</p>
+
+<p>Through the categorization section of the article (described below) you will be able to add information that will place the article in your area of the site. </p>
+
+<p>To have the Office of Marketing and Communications consider putting the article on the homepage of the site, <a href="https://cardinalnet.northcentralcollege.edu/misc/website-management">submit a request</a> that includes a link to the article. </p>
+
+<h5>Office of Marketing and Communications</h5>
+
+<p>The instructions below cover how to create an article. To add an article to the homepage:
+1. Go to the homepage.
+2. Select New Draft.
+3. Open the Homepage tab.
+4. Select Add slide, complete the fields, and choose the save option you want.</p>
+
+<h5>How to Create Articles</h5>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to create the type of article you want to add to the site. (Note: To select the type of article, use the type dropdown list.) Keep these instructions and tips in mind as you create your article:</p>
+
+<h5>Categorization</h5>
+
+<p>This is the area where you will enter information about the topics the article covers. Adding this information helps the article appear in the proper section of the site and in the “related articles” section of an article. </p>
+
+<p>Use the category section to:</p>
+
+<blockquote>
+<p>Enter broad topics the article relates to as well as the program/department it might feature. For example, undergraduate, graduate, academics, service learning, student life, journalism.</p>
+
+<p>Note: The items that you will be able to enter in this section are pre-defined, meaning that they are from a list managed by site administrators. </p>
+</blockquote>
+
+<p>Use the tags section to:</p>
+
+<blockquote>
+<p>Add more specific topics the article covers. For example, a person, a special award.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="section-events">Events</h4>
+
+<p>Events will be pulled into the site from the current North Central event calendar and room reservation system.</p>
+
+<p>Follow <a href="https://calendar.noctrl.edu/documents/guide/Calendar%20Listing%20&amp;%20Location%20Request%20Guide.pdf">these instructions</a> to add events and reserve a location.</p>
+
+<hr />
+
+<h4 id="section-webforms">Webforms</h4>
+
+<p>Webforms are a way to collect information from site visitors. To edit an existing form or create a new one, <a href="https://cardinalnet.northcentralcollege.edu/misc/website-management">submit a request</a>.</p>
+
+<hr />
+
+<h4 id="section-departments">Departments</h4>
+
+<p>The department content type provides a standardized way for departments to present their work, faculty members, academic programs and more.</p>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to create or edit a department. Keep these instructions and tips in mind:</p>
+
+<h5>Adding Department Content</h5>
+
+<p>The main content for departments is organized by tabs. By default, every department has an overview tab that should provide a summary of the department’s activities, offerings, etc.</p>
+
+<p>To add a department overview:</p>
+
+<ol>
+<li>Go to the Header section and enter the overview content. In addition to text, you can include a highlight stack featuring student profiles, quotes and other content.</li>
+<li>At the bottom of the screen, select a save option to save your work.</li>
+</ol>
+
+<p>To create tabs:</p>
+
+<ol>
+<li>Go to the Tab section and select Add Tab Section.</li>
+<li>Select an icon that matches the topic of the tab and provide a tab title.</li>
+<li>To add text to the tab or other content, select the dropdown list under Content and select the component you want to add.</li>
+<li>Save your additions or continue to build the program by adding tabs and then save.</li>
+</ol>
+
+<blockquote>
+<p><strong>TIPS</strong>
+To add curriculum information, use the Program Acalog component.
+To list faculty or staff profiles in a tab, use the Add Profile option and enter the person’s name.
+To add a program to a tab, use the Add Program option and enter the name of the program.</p>
+</blockquote>
+
+<h5>Editing Department Content</h5>
+
+<ol>
+<li>Select the section of the department you want to edit, e.g., content in a tab, contact.</li>
+<li>Make and save your changes.</li>
+</ol>
+
+<hr />
+
+<h4 id="section-videosandgalleries">Videos and Photo Galleries</h4>
+
+<p>To place videos and photo galleries into an area of the site, the first step is to create the video or gallery. Follow <a href="#section-generalsteps">these steps</a>to create the video or a gallery, then follow these steps to embed it into the site.</p>
+
+<ol>
+<li>To add a video or gallery to a page, add a feature teaser or teaser block to a page.</li>
+<li>In the media dropdown list, select either add video or add gallery.</li>
+<li>Start typing the title of the video or gallery and then select the one you want to add.</li>
+<li>Fill out any remaining items you want to include in the teaser or the page and save the page.</li>
+</ol>
+
+<blockquote>
+<p>Note: Some stacks also include cards for adding a video or gallery. Follow the same steps as above to add it. </p>
+</blockquote>
+
+<hr />
+
+<h4 id="section-documents">PDFs and Documents</h4>
+
+<p>You can add PDFs and other documents to certain content types, such as pages. </p>
+
+<p>Document types that can be uploaded:</p>
+
+<blockquote>
+<p>Word
+PDF
+Powerpoint
+Excel
+Text</p>
+</blockquote>
+
+<p>To add a document, follow these steps: </p>
+
+<ol>
+<li>Go to the documents tab.</li>
+<li>Choose the file you want to make available for download from your computer.</li>
+<li>Save the page (or other content type you are editing).</li>
+<li>Add or open a rich text or component with rich text (e.g. a teaser) where you want to have the link to download the document. Highlight the text that will be the link and click on the link icon with a plus sign.</li>
+<li>Begin typing the title of the file and select it.</li>
+<li>Save the page and test your file link.</li>
+</ol>
+
+<blockquote>
+<p><strong>TIPS</strong>
+Use the name or subject of the file as your link text. </p>
+</blockquote>
+
+<p>Good:
+Undergraduate Research Magazine</p>
+
+<p>Bad:
+click here</p>
+
+<hr />
+
+<h4 id="section-links">Links</h4>
+
+<p><img src="assets/links.png" alt="Link plus icon in wisywig." />
+To create a link to a page on the site or an external website:</p>
+
+<p>Highlight the text you want to be the link and click on the link icon with a plus sign.
+Begin typing the name of the page or paste the URL if you’re linking to another website.</p>
+
+<blockquote>
+<p><strong>TIPS</strong>
+Write links as short, clear calls to action or descriptive text:</p>
+</blockquote>
+
+<p>Good:
+learn about the lecture</p>
+
+<p>Bad:
+click here</p>
+
+<blockquote>
+<p>Leave space between link phrases if there are more than one in a sentence, and use 2&#8211;4 words. It can be difficult for mobile users to click on single-word links if they’re near other links.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="section-advancedtopics">Advanced Topics</h2>
+
+<p>The following sections cover tasks and functionality that not all site users have access to. If you are interested in doing one of these tasks and do not have access to do so on the site, contact a site administrator.</p>
+
+<hr />
+
+<h3 id="section-alerts">Alerts</h3>
+
+<p>![alert examples][alert examples](assets/alert.png
+Alerts allow you to quickly post a notice on the homepage, and set it to expire. They are color-coded so you can use them for things like on-campus emergencies or closings, updates about a resolved emergency, or things like reminders for applicants. </p>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to create an alert. Note: the ability to create alerts is limited to certain members of North Central staff.</p>
+
+<hr />
+
+<h3 id="section-eventregistration">Events with Registration</h3>
+
+<p>Events appear in stacks as cards on the site as well as in the main calendar. In some cases, e.g. visit days, events are created on the site rather than pulled in from the current North Central calendar and room reservation system.</p>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to create an event. To ensure that the event appears in the correct area of the site, make sure to complete the categorization tab of the event. If you want people to be able to register for the event, follow the instructions below. </p>
+
+<h5>Adding Registration</h5>
+
+<ol>
+<li>To include a short form for people to sign up to the event, go to the registration tab and select Accepting new registrants.</li>
+<li>Select the type of registration form you want to use and other registration details.</li>
+<li>Save the event.</li>
+</ol>
+
+<h5>Viewing Registrations</h5>
+
+<p>To see who has signed up for the event, go to the event and open the registration list tab.</p>
+
+<hr />
+
+<h3 id="section-managingmenus">Menus</h3>
+
+<p>To manage the site’s menus, go to Structure &gt; Menus. </p>
+
+<p>The items that will display will vary based on your role on the site, e.g., Admin, Editor, Author.</p>
+
+<p>The most common task involving menus is reordering menu items. </p>
+
+<h4 id="section-reorder">Reordering Menu Items</h4>
+
+<ol>
+<li>Select Edit for the menu you want to change. Note: Main navigation is the site’s primary menu.</li>
+<li>Use the crosshair to drag and drop the menu item to a new location. You can move it within its sibling items, move it under a new parent, or to a new level.</li>
+<li>Select Save to keep your menu changes.</li>
+</ol>
+
+<hr />
+
+<h3 id="section-buildingwebforms">Webforms: Building and Managing</h3>
+
+<p>Depending on your access level on the site you can select pre-built form templates to add to an area of the site. Or you will have the ability to build a form template.</p>
+
+<h4>Create a Form from a Template</h4>
+
+<p>Follow these <a href="#section-generalsteps">general steps</a> to begin the form-creation process. Then follow these instructions and tips:</p>
+
+<h5>Provide Context</h5>
+
+<p>Use the Header &gt; Overview section to include a sentence or two introduction about what the form is for. In a friendly manner, include any special instructions or important information the person completing the form should know.</p>
+
+<h5>Selecting the Form Template</h5>
+
+<p>In the form tab begin entering the name of the form you want to use. </p>
+
+<h4>Build a Custom Form Template</h4>
+
+<p>The site uses the YAML webform module which comes with template-style forms for a variety of common form types, e.g., registration. These templates can be used as a starting point to create custom forms. If you need to create a custom form and have access to the Structure &gt; YAML Forms section of the CMS, follow the instructions below. If you do not have access to that section, contact a site administrator.</p>
+
+<p>To customize a form:</p>
+
+<ol>
+<li>Go to Structure or Shortcut &gt; YAML form</li>
+<li>Find the form template you want to use as a base and select Duplicate from the edit options.</li>
+<li>Give the new form a title and description.</li>
+<li>Customize the form by editing or deleting fields and adding new elements/fields.</li>
+<li>Click Save elements to save the form. The form will now be available when using the Webform content type.</li>
+</ol>
+
+<blockquote>
+<p><strong>TIPS</strong>
+To edit the confirmation message people see when they submit a form (a recommended step), go to the Settings tab of the form and edit the text in the confirmation settings box.<br/>
+To see the types of fields/elements you can use, view the example forms.
+The module supports emailing people who submit a form and other more advanced functionality. Learn more about <a href="http://yamlform.io/features/">YAML form features</a>. </p>
+</blockquote>
+
+<h4>Managing Submissions</h4>
+
+<p>To view, download or take other actions related to form submissions, go to the Results tab of a form.</p>
+
+<hr />
+
+<h3 id="section-eventmanagement">Event Management</h3>
+
+<p>The site uses the RNG module for managing event registration. <a href="https://www.drupal.org/project/rng">Learn more about the module</a> </p>
+
+<hr />
+
+<h3 id="section-taxonomies">Taxonomies</h3>
+
+<p>Taxonomies are used to manage things like the categories that programs can be filed under and that appear in the program finder. They are also used to manage categories for other types of content, such as articles and event types.</p>
+
+<p>Taxonomies are also used to manage who can edit certain content on the site. The editorial sections taxonomy is one example.</p>
+
+<p>To manage taxonomies, go to Structure &gt; Taxonomy</p>
+
+<blockquote>
+<p><strong>TIP</strong>
+If you want change the name of a term that is already used to categorize content, edit the term rather than delete and add a new term. This way you don’t have to retag the content with the updated term name.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="section-editorialaccess">Editorial Access and Workflows</h3>
+
+<p>To control specific content (e.g. a particular page or program) a CMS user can edit, the site uses a module called Workbench and taxonomies. </p>
+
+<p>The primary taxonomy that’s used to manage editing access to content is the Editorial Sections taxonomy. That taxonomy allows for the creation of groups such as Marketing or Admissions. CMS users are assigned to the various editorial sections created.</p>
+
+<p>Certain content, such as pages, includes an editorial sections tab. In that tab you can select an editorial section. Users who are part of that editorial section can then edit the content, even if they did not originally create it. </p>
+
+<p>An example:
+The undergraduate academics page is tagged with the Marketing and Communications editorial section. Jane is a member of the Marketing and Communications editorial section. Jane can edit the undergraduate academics page even though she isn’t the original author.</p>
+
+<p>To manage the editorial section taxonomy, go to Structure &gt; Taxonomy</p>
+
+<p>To manage Workbench, go to Configuration &gt; Workflow</p>
+
+<h4>Workbench</h4>
+
+<p>The <a href="https://www.drupal.org/node/2121239">Workbench</a> module manages publishing workflows and revisions. </p>
+
+<p>Workbench can be configured to suit North Central’s editorial needs. Some examples:</p>
+
+<blockquote>
+<p>When an admin creates a new page they can save and publish it immediately
+When an editor creates a page and saves it, it is saved as a draft for review by an author who publishes it
+When an editor wants to edit an existing page they create a new draft, save it, and an author publishes it or sends it back as a draft</p>
+</blockquote>
+
+<p>To configure Workbench settings, go to Configuration &gt; Workflow</p>
+
+<hr />
+
+<h3 id="section-rolesandpermissions">Roles and Permissions</h3>
+
+<p>To control actions CMS users can take and the parts of the CMS they have access to, the site uses roles and permissions. </p>
+
+<p>A “role” is a type of user, e.g., administrator, author, editor. A “permission” is a task that can be completed, e.g., publish a program, delete a page. </p>
+
+<p>Users are allowed to perform tasks based on the role they are assigned. Roles can be assigned manually by administrators and automatically through the North Central College data source used to authenticate users. Roles and permissions can be expanded and modified as needed. </p>
+
+<p>To manage roles, go to People &gt; Roles</p>
+
+<p>To manage permissions, go to People &gt; Permissions</p>
+
+<hr />
+
+<h3 id="section-metatags">Meta Tags/SEO</h3>
+
+<p>To include information like page descriptions that search engines use to match users’ search queries with web content, the site uses the Meta Tags module.</p>
+
+<p>To add a page description to a page or other piece of content, open the Meta Tags box (it will be on the right-hand side of the page if you’re on a desktop computer). Then enter the description.</p>
+
+<p>You can also manage what’s shown when site content is shared on social networks like Facebook using the Meta Tags module.</p>
+
+<p>The Meta Tags module includes many more ways to optimize content for search engines and social networks. Learn more about the <a href="https://www.drupal.org/project/metatag">Meta Tags module</a>.</p>
+
+<hr />
+
+<h3 id="section-managingfiles">Managing Images and Files</h3>
+
+<p>When adding an image or file to a piece of content, users have the option to select images and files previously uploaded to the site. This can help when images or files need to be used frequently or in multiple places.</p>
+
+<p>To manage the images and other files on the site, go to Content and open the Files tab.</p>
+
+<hr />
+
+<h2 id="section-glossary">Glossary</h2>
+
+<hr />
+
+<h5>Alternative Text</h5>
+
+<p>A very short description of an image. This description is read to site visitors with visual impairments who use screen readers. </p>
+
+<h5>Aspect Ratio</h5>
+
+<p>The ratio of the width to the height of an image.</p>
+
+<h5>Component</h5>
+
+<p>An element used to build content, primarily pages. E.g. a feature teaser. </p>
+
+<h5>Content Type</h5>
+
+<p>The types of content that comprise the site: page, program, event, webform, etc.</p>
+
+<h5>CTA/Call to Action</h5>
+
+<p>Clickable prompts that guide users to content or to complete an action (e.g. learn more, register, submit form). They are most often buttons.</p>
+
+<h5>Crosslink</h5>
+
+<p>A link that takes users from one page of the site to another.</p>
+
+<h5>Focal Point</h5>
+
+<p>A tool that lets CMS users indicate the most important part of an image so it isn’t cut off when an image is auto cropped to fit smaller screen sizes.</p>
+
+<h5>Metadata</h5>
+
+<p>Information about a piece of content. A common example is the “about this page” description in the Meta Tags section of a page.</p>
+
+<h5>Node</h5>
+
+<p>A piece of content on the site with a URL. Examples, the homepage, an article, a page.</p>
+
+<h5>Parallax</h5>
+
+<p>An effect on pages that arranges an image in the background with section content moving on top as the user scrolls. </p>
+
+<h5>Paths</h5>
+
+<p>The unique end portion of the URL for a piece of content. For instance, for a page whose full URL is http://northcentralcollege.edu/node/202, the path is node/202. </p>
+
+<h5>Responsive</h5>
+
+<p>The auto optimization of a site for multiple devices. For example, a page being just as usable on a smartphone as it is on a desktop.</p>
+
+<h5>Stack</h5>
+
+<p>A design component unique to NorthCentralCollege.edu. It is a collection of cards that animates when a user interacts with it.</p>
+
+<h5>Tray</h5>
+
+<p>An area of the screen that can be opened and closed to reveal additional content or tools. It is on the right-hand side when viewing on a desktop. The filters in the program finder are one example.</p>
+
+<h5>URL</h5>
+
+<p>The “address” of a piece of content. E.g. the URL for the homepage is http://northcentralcollege.edu/home</p>
+
+<h5>Workbench</h5>
+
+<p>Where CMS users create and manage content. It also controls the publishing workflow.</p>
+
+<hr />
+
+<h2 id="section-contact">## Contact: Feedback and Requests</h2>
+
+<p>To give feedback on the website, submit bugs or ask for assistance, please <a href="https://cardinalnet.northcentralcollege.edu/misc/website-management">complete a request form</a>.</p>
+    </div>
+  </div> <!-- End wrapper -->
+</body>
+</html>
