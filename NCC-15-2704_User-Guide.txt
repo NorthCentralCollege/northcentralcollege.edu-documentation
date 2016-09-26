@@ -59,8 +59,8 @@ For example, the elements of an article include a title, an image, a subtitle an
 ![Content Types](assets/content_type.png)
 North Central’s site includes custom content types like program created for the College’s academic degrees.
   
-> **TIP**  
-> To see all content types that you have access to create, go to Workbench > Create Content
+##### TIP  
+* To see all content types that you have access to create, go to Workbench > Create Content
 
 ---   
 
@@ -177,10 +177,10 @@ Stacks are groupings of cards that open and close as a user interacts with them.
 
 There are several types of stacks. For example, group, program and highlight. Each includes different types of cards. We’ve selected which stack types to use on each content type. All you need to do is choose places where you want to use stacks and the cards and content that will be included.
 
-> **TIPS**  
-> * If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
-> * Use a variety of card types when creating a stack.  
-> * By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.
+##### TIPS  
+* If there’s important information you want users to see in a stack, set the card that contains that information to be a featured card.
+* Use a variety of card types when creating a stack.  
+* By design, most stack types allow for five cards. While there isn’t a minimum required, aim for at least 3 cards.
 
 ---   
 
