@@ -207,11 +207,11 @@ Allows for up to 4 blocks that each include a title, short description, image an
 
 ---   
 #### Calls to Action / CTAs
-Call-to-actions are available throughout the site in a similar way as buttons on the current North Central site.
+Call-to-actions are available throughout the site in a similar way as buttons on the old North Central site.
 
 There are two types:
-> CTA buttons on headers and teasers
-> CTA cards
+* CTA buttons on headers and teasers
+* CTA cards
 
 > **TIPS**
 > Use CTAs for the most important thing you want users to do next or learn more about.
