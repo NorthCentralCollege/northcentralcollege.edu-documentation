@@ -191,6 +191,12 @@ A brief quote by a student, professor, or other College community member.
 
 --- 
 
+![Profile Story Card](assets/card_story.png)
+##### Story
+The story card is for promoting articles or stories. It includes an image, title and byline.
+
+---
+
 ![Title Card](assets/card_title.png)
 ##### Title
 A brief, catchy statement or interesting sentence, similar to a headline or pull quote meant to draw user’s attention but not lead them to click through to other content. The title card doesn’t include a link.
