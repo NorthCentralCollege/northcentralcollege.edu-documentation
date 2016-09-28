@@ -173,7 +173,7 @@ An image and title of a member of North Central that links to the person’s pro
 
 --- 
 
-![Profile Story Card](assets/card_story.png)
+![Profile Story Card](assets/card_story_prof.png)
 ##### Profile - Story
 An image and major or tile of a member of North Central that opens a prose-style profile (e.g. student story). These are typically used to highlight students.
 
